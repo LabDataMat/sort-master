@@ -1,0 +1,17 @@
+{
+ "levelId": 14,
+ "name": "第 14 关",
+ "difficulty": 4,
+ "difficultyLabel": "复杂堆叠",
+ "itemCount": 96,
+ "typeCount": 10,
+ "layerCount": 6,
+ "frozenCount": 6,
+ "lockedCount": 1,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 254,
+  "minDist": 36,
+  "spill": 0.09
+ }
+}

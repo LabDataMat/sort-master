@@ -1,0 +1,17 @@
+{
+ "levelId": 17,
+ "name": "第 17 关",
+ "difficulty": 4,
+ "difficultyLabel": "复杂堆叠",
+ "itemCount": 102,
+ "typeCount": 11,
+ "layerCount": 6,
+ "frozenCount": 5,
+ "lockedCount": 2,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 254,
+  "minDist": 36,
+  "spill": 0.09
+ }
+}

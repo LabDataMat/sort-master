@@ -1,0 +1,17 @@
+{
+  "name": "sort-master",
+  "version": "1.0.0",
+  "description": "收纳大作战 (Sort Master) - Cocos Creator 3.8 微信小游戏",
+  "creator": {
+    "version": "3.8.6"
+  },
+  "type": "tree",
+  "devDependencies": {
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.3",
+    "puppeteer-core": "^25.16.0",
+    "typescript": "^7.0.2"
+  }
+}

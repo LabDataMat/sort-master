@@ -1,0 +1,17 @@
+{
+ "levelId": 6,
+ "name": "第 6 关",
+ "difficulty": 4,
+ "difficultyLabel": "高压堆叠",
+ "itemCount": 78,
+ "typeCount": 9,
+ "layerCount": 6,
+ "frozenCount": 2,
+ "lockedCount": 0,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 250,
+  "minDist": 38,
+  "spill": 0.1
+ }
+}

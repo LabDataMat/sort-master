@@ -1,0 +1,27 @@
+{
+  "packages": {
+    "project": {
+      "general": {
+        "designResolution": {
+          "width": 750,
+          "height": 1334,
+          "fitWidth": true,
+          "fitHeight": false
+        },
+        "renderPipeline": ""
+      },
+      "physics": {},
+      "scene": {
+        "assets": [
+          "db://assets/scenes/loading.scene",
+          "db://assets/scenes/home.scene",
+          "db://assets/scenes/game.scene",
+          "db://assets/scenes/collection.scene"
+        ]
+      },
+      "macroConfig": {},
+      "functions": {}
+    }
+  },
+  "name": "settings"
+}

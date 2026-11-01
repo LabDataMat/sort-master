@@ -1,0 +1,17 @@
+{
+ "levelId": 8,
+ "name": "第 8 关",
+ "difficulty": 4,
+ "difficultyLabel": "高压堆叠",
+ "itemCount": 84,
+ "typeCount": 10,
+ "layerCount": 6,
+ "frozenCount": 4,
+ "lockedCount": 1,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 250,
+  "minDist": 38,
+  "spill": 0.1
+ }
+}

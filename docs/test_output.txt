@@ -1,0 +1,107 @@
+=== 收纳大作战 核心逻辑测试（连续匹配规则） ===
+
+  PASS  [A,A,A] => 消除
+  PASS  [A,B,A] => 不消除
+  PASS  [A,B,A,A] => 不消除
+  PASS  [A,A,B,A] => 不消除
+  PASS  [B,B,B,B] => 只消除一组（消费前三个）
+  PASS  [A,B,B,B,A] => 只消除连续的三个 B
+  PASS  [A,A,A,B,B,B] => 两组分别消除
+  PASS  [A,A,B,B,B,A,A] => 只消除中间三个 B，剩余 A 不消除
+  PASS  [A,A,B,B,B,A] => 消除三个 B 后剩 [A,A,A]（不再触发）
+  PASS  消除后左补位（顺序保持）
+  PASS  消除不会重复触发（数据无错乱）
+  PASS  appendingCompletesTriple 判定（尾部凑三）
+  PASS  SlotModel.add：按进入顺序追加并结算
+  PASS  SlotModel 尾部三连触发并补位
+  PASS  正常三消：三个同类型消除并清空槽位
+  PASS  不同物品不消除
+  PASS  收纳槽未满时游戏继续
+  PASS  收纳槽已满（7 个不同类型且场上还有物品）判负
+  PASS  遮挡物品无法点击
+  PASS  消除上层物品后下层解锁
+  PASS  冰冻物品：三消后解冻
+  PASS  锁定物品：达到解锁次数后可点击
+  PASS  撤回操作：恢复上一次操作前状态
+  PASS  洗牌后物品数量与类型一致
+  PASS  移除道具：直接移除一个可点击物品
+  PASS  额外槽位：可超过 7 个临时占用
+  PASS  额外槽位道具生效
+  PASS  胜利判定
+  PASS  动画期间重复点击：视图层闸门拦截（inputLocked 契约）
+  PASS  动画期间重复点击：同帧两次 pickTile 只有第一次生效
+  PASS  快速连续点击：逻辑层立即去重（已移除物品）
+  PASS  状态机：非 PLAYING 状态拒绝操作
+  PASS  槽位模型：连续三连才消除（新规则语义）
+  PASS  金币增加必须为正数
+  PASS  金币扣减：余额不足拒绝，永不为负
+  PASS  奖励发放幂等：重复 requestId 只发一次
+  PASS  关卡结算防重（canSettle）
+  PASS  每日签到逻辑：日期判断与连击
+  PASS  道具库存：消耗不足拒绝
+  PASS  存档：写入读取往返一致
+[Save] 存档解析失败，回退默认存档 SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at SaveManager.load (F:\Game3.0\build\assets\scripts\systems\save\SaveManager.js:66:33)
+    at new SaveManager (F:\Game3.0\build\assets\scripts\systems\save\SaveManager.js:58:26)
+    at Object.fn (F:\Game3.0\build\tests\economy.test.js:72:16)
+    at TestRunner.run (F:\Game3.0\build\tests\harness.js:19:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async main (F:\Game3.0\build\tests\run.js:17:11)
+  PASS  存档：损坏数据回退默认值（游戏可启动）
+[Save] 存档校验失败，回退默认存档（游戏可正常启动）
+  PASS  存档：校验和不匹配回退默认值
+  PASS  存档 v1→v2：旧进度完整保留
+  PASS  存档 v2：收藏品/碎片/任务持久化
+  PASS  存档：缺失字段补默认值（版本升级兼容）
+  PASS  广告完整观看 → 发放奖励
+  PASS  广告中途关闭 → 不发奖励
+  PASS  广告加载/播放失败 → 不发奖励
+  PASS  重复 requestId 不重复发奖
+  PASS  每关复活广告最多一次
+  PASS  每局广告次数限制
+  PASS  startRun 重置本局限制
+  PASS  广告统计计数完整
+  PASS  show 成功不等于播放完成（Mock abandon 场景验证）
+  PASS  收藏品数据：48 件 / 4 系列各 12 件 / 唯一 ID
+  PASS  收藏品数据：四种稀有度齐备且描述/名称完整
+  PASS  收藏品素材文件全部存在
+  PASS  首次通关必定获得一件新收藏品
+  PASS  重复获得同款 -> 转化为碎片
+  PASS  稀有度随关卡进度放开
+  PASS  低关卡奖励只出普通稀有度（里程碑除外）
+  PASS  里程碑关卡必定获得指定收藏品
+  PASS  奖励确定性：同关卡同状态结果一致（非随机）
+  PASS  碎片兑换：不足拒绝 / 成功扣费 / 已拥有拒绝
+  PASS  集齐系列 -> 记录完成并触发主题解锁回调
+  PASS  系列进度与总进度计算
+  PASS  全部收藏后通关奖励转为碎片（不空手）
+  PASS  兑换建议返回可负担的最低稀有度未拥有收藏品
+  PASS  经验升级：达到阈值升级并发放等级奖励
+  PASS  经验可连续升多级
+  PASS  每日任务：未完成不能领取
+  PASS  每日任务：事件驱动进度并按目标封顶
+  PASS  每日任务：完成可领且只能领一次（幂等）
+  PASS  每日任务：四种事件类型都驱动对应任务
+  PASS  每日任务：跨天重置进度与领取状态
+  PASS  里程碑：每 5 关有金币与碎片奖励
+  PASS  全部 100 个关卡文件存在
+  PASS  全部关卡通过结构校验 + 已标记可解性验证
+  PASS  物品类型都有对应图片资源
+  PASS  物品 ID 不重复（全关卡）
+  PASS  难度梯度符合规划（层数/物品数随难度上升）
+  PASS  回放每关存储的通关序列（GameSession 真实规则）
+  PASS  manifest 与关卡文件一致
+  PASS  教学段（1-4）不含冰冻/锁定，第 5 关起出现障碍
+  PASS  预览端到端：首页渲染 → 进入关卡 → 点击三消 → 撤回 → 金币变动
+
+=== 汇总 ===
+连续匹配   : 14 passed, 0 failed
+核心玩法   : 19 passed, 0 failed
+经济/存档  : 12 passed, 0 failed
+广告(Mock) : 9 passed, 0 failed
+收藏品     : 14 passed, 0 failed
+成长/任务  : 8 passed, 0 failed
+关卡       : 8 passed, 0 failed
+预览E2E    : 1 passed, 0 failed
+总计: 85 通过, 0 失败

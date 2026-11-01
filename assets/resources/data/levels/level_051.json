@@ -1,0 +1,17 @@
+{
+ "levelId": 51,
+ "name": "第 51 关",
+ "difficulty": 5,
+ "difficultyLabel": "高难关卡",
+ "itemCount": 138,
+ "typeCount": 11,
+ "layerCount": 7,
+ "frozenCount": 6,
+ "lockedCount": 2,
+ "boosterLimit": 2,
+ "gen": {
+  "radius": 258,
+  "minDist": 34,
+  "spill": 0.08
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "levelId": 41,
+ "name": "第 41 关",
+ "difficulty": 5,
+ "difficultyLabel": "高难关卡",
+ "itemCount": 129,
+ "typeCount": 11,
+ "layerCount": 6,
+ "frozenCount": 4,
+ "lockedCount": 4,
+ "boosterLimit": 2,
+ "gen": {
+  "radius": 258,
+  "minDist": 34,
+  "spill": 0.08
+ }
+}

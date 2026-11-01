@@ -1,0 +1,17 @@
+{
+ "levelId": 28,
+ "name": "第 28 关",
+ "difficulty": 5,
+ "difficultyLabel": "高难关卡",
+ "itemCount": 114,
+ "typeCount": 10,
+ "layerCount": 6,
+ "frozenCount": 7,
+ "lockedCount": 3,
+ "boosterLimit": 2,
+ "gen": {
+  "radius": 258,
+  "minDist": 34,
+  "spill": 0.08
+ }
+}

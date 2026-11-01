@@ -1,0 +1,17 @@
+{
+ "levelId": 11,
+ "name": "第 11 关",
+ "difficulty": 4,
+ "difficultyLabel": "复杂堆叠",
+ "itemCount": 90,
+ "typeCount": 10,
+ "layerCount": 6,
+ "frozenCount": 3,
+ "lockedCount": 2,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 254,
+  "minDist": 36,
+  "spill": 0.09
+ }
+}

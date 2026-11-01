@@ -1,0 +1,5094 @@
+{
+  "generatedAt": "2026-10-31T13:02:45.020Z",
+  "seedsPerLevel": 2,
+  "levels": [
+    {
+      "levelId": 1,
+      "spec": {
+        "itemCount": 12,
+        "typeCount": 3,
+        "layerCount": 2
+      },
+      "runs": [
+        {
+          "seed": 20260137,
+          "ok": true,
+          "items": 12,
+          "types": 3,
+          "layers": 2,
+          "edges": 13,
+          "pile": "298x317",
+          "avgVisible": 52,
+          "hiddenRatio": 0,
+          "attempts": 1,
+          "firstMoves": [
+            "t10",
+            "t9",
+            "t0",
+            "t11",
+            "t8",
+            "t6"
+          ]
+        },
+        {
+          "seed": 20261146,
+          "ok": true,
+          "items": 12,
+          "types": 3,
+          "layers": 2,
+          "edges": 10,
+          "pile": "333x317",
+          "avgVisible": 60,
+          "hiddenRatio": 0,
+          "attempts": 1,
+          "firstMoves": [
+            "t10",
+            "t1",
+            "t9",
+            "t11",
+            "t6",
+            "t7"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 2,
+      "spec": {
+        "itemCount": 45,
+        "typeCount": 6,
+        "layerCount": 4
+      },
+      "runs": [
+        {
+          "seed": 20260274,
+          "ok": true,
+          "items": 45,
+          "types": 6,
+          "layers": 4,
+          "edges": 91,
+          "pile": "504x472",
+          "avgVisible": 39,
+          "hiddenRatio": 20,
+          "attempts": 1,
+          "firstMoves": [
+            "t12",
+            "t38",
+            "t14",
+            "t41",
+            "t3",
+            "t36"
+          ]
+        },
+        {
+          "seed": 20261283,
+          "ok": true,
+          "items": 45,
+          "types": 6,
+          "layers": 4,
+          "edges": 101,
+          "pile": "487x504",
+          "avgVisible": 38,
+          "hiddenRatio": 29,
+          "attempts": 1,
+          "firstMoves": [
+            "t42",
+            "t38",
+            "t44",
+            "t35",
+            "t26",
+            "t37"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 3,
+      "spec": {
+        "itemCount": 54,
+        "typeCount": 7,
+        "layerCount": 5
+      },
+      "runs": [
+        {
+          "seed": 20260411,
+          "ok": true,
+          "items": 54,
+          "types": 7,
+          "layers": 5,
+          "edges": 156,
+          "pile": "506x480",
+          "avgVisible": 32,
+          "hiddenRatio": 26,
+          "attempts": 1,
+          "firstMoves": [
+            "t44",
+            "t50",
+            "t51",
+            "t47",
+            "t48",
+            "t43"
+          ]
+        },
+        {
+          "seed": 20261420,
+          "ok": true,
+          "items": 54,
+          "types": 7,
+          "layers": 5,
+          "edges": 151,
+          "pile": "529x473",
+          "avgVisible": 33,
+          "hiddenRatio": 22,
+          "attempts": 1,
+          "firstMoves": [
+            "t52",
+            "t51",
+            "t49",
+            "t43",
+            "t50",
+            "t53"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 4,
+      "spec": {
+        "itemCount": 66,
+        "typeCount": 8,
+        "layerCount": 5
+      },
+      "runs": [
+        {
+          "seed": 20260548,
+          "ok": true,
+          "items": 66,
+          "types": 8,
+          "layers": 5,
+          "edges": 206,
+          "pile": "521x476",
+          "avgVisible": 28,
+          "hiddenRatio": 23,
+          "attempts": 1,
+          "firstMoves": [
+            "t59",
+            "t51",
+            "t2",
+            "t56",
+            "t65",
+            "t64"
+          ]
+        },
+        {
+          "seed": 20261557,
+          "ok": true,
+          "items": 66,
+          "types": 8,
+          "layers": 5,
+          "edges": 215,
+          "pile": "534x489",
+          "avgVisible": 27,
+          "hiddenRatio": 33,
+          "attempts": 1,
+          "firstMoves": [
+            "t64",
+            "t48",
+            "t65",
+            "t58",
+            "t46",
+            "t22"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 5,
+      "spec": {
+        "itemCount": 75,
+        "typeCount": 9,
+        "layerCount": 5
+      },
+      "runs": [
+        {
+          "seed": 20260685,
+          "ok": true,
+          "items": 75,
+          "types": 9,
+          "layers": 5,
+          "edges": 277,
+          "pile": "523x521",
+          "avgVisible": 27,
+          "hiddenRatio": 33,
+          "attempts": 1,
+          "firstMoves": [
+            "t64",
+            "t72",
+            "t62",
+            "t50",
+            "t74",
+            "t61"
+          ]
+        },
+        {
+          "seed": 20261694,
+          "ok": true,
+          "items": 75,
+          "types": 9,
+          "layers": 5,
+          "edges": 294,
+          "pile": "558x566",
+          "avgVisible": 26,
+          "hiddenRatio": 29,
+          "attempts": 1,
+          "firstMoves": [
+            "t70",
+            "t73",
+            "t72",
+            "t74",
+            "t64",
+            "t58"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 6,
+      "spec": {
+        "itemCount": 78,
+        "typeCount": 9,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20260822,
+          "ok": true,
+          "items": 78,
+          "types": 9,
+          "layers": 6,
+          "edges": 304,
+          "pile": "533x521",
+          "avgVisible": 26,
+          "hiddenRatio": 35,
+          "attempts": 1,
+          "firstMoves": [
+            "t73",
+            "t75",
+            "t77",
+            "t72",
+            "t71",
+            "t74"
+          ]
+        },
+        {
+          "seed": 20261831,
+          "ok": true,
+          "items": 78,
+          "types": 9,
+          "layers": 6,
+          "edges": 304,
+          "pile": "527x580",
+          "avgVisible": 26,
+          "hiddenRatio": 38,
+          "attempts": 1,
+          "firstMoves": [
+            "t9",
+            "t73",
+            "t77",
+            "t30",
+            "t6",
+            "t69"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 7,
+      "spec": {
+        "itemCount": 81,
+        "typeCount": 9,
+        "layerCount": 5
+      },
+      "runs": [
+        {
+          "seed": 20260959,
+          "ok": true,
+          "items": 81,
+          "types": 9,
+          "layers": 5,
+          "edges": 312,
+          "pile": "561x565",
+          "avgVisible": 26,
+          "hiddenRatio": 33,
+          "attempts": 1,
+          "firstMoves": [
+            "t79",
+            "t75",
+            "t64",
+            "t77",
+            "t72",
+            "t76"
+          ]
+        },
+        {
+          "seed": 20261968,
+          "ok": true,
+          "items": 81,
+          "types": 9,
+          "layers": 5,
+          "edges": 330,
+          "pile": "521x550",
+          "avgVisible": 25,
+          "hiddenRatio": 31,
+          "attempts": 1,
+          "firstMoves": [
+            "t74",
+            "t6",
+            "t73",
+            "t72",
+            "t77",
+            "t80"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 8,
+      "spec": {
+        "itemCount": 84,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20261096,
+          "ok": true,
+          "items": 84,
+          "types": 10,
+          "layers": 6,
+          "edges": 328,
+          "pile": "560x507",
+          "avgVisible": 23,
+          "hiddenRatio": 36,
+          "attempts": 1,
+          "firstMoves": [
+            "t80",
+            "t46",
+            "t78",
+            "t77",
+            "t72",
+            "t66"
+          ]
+        },
+        {
+          "seed": 20262105,
+          "ok": true,
+          "items": 84,
+          "types": 10,
+          "layers": 6,
+          "edges": 349,
+          "pile": "561x519",
+          "avgVisible": 24,
+          "hiddenRatio": 38,
+          "attempts": 1,
+          "firstMoves": [
+            "t55",
+            "t30",
+            "t65",
+            "t75",
+            "t73",
+            "t83"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 9,
+      "spec": {
+        "itemCount": 87,
+        "typeCount": 10,
+        "layerCount": 5
+      },
+      "runs": [
+        {
+          "seed": 20261233,
+          "ok": true,
+          "items": 87,
+          "types": 10,
+          "layers": 5,
+          "edges": 391,
+          "pile": "540x522",
+          "avgVisible": 22,
+          "hiddenRatio": 39,
+          "attempts": 1,
+          "firstMoves": [
+            "t86",
+            "t85",
+            "t79",
+            "t84",
+            "t81",
+            "t83"
+          ]
+        },
+        {
+          "seed": 20262242,
+          "ok": true,
+          "items": 87,
+          "types": 10,
+          "layers": 5,
+          "edges": 373,
+          "pile": "560x487",
+          "avgVisible": 23,
+          "hiddenRatio": 40,
+          "attempts": 1,
+          "firstMoves": [
+            "t62",
+            "t84",
+            "t82",
+            "t85",
+            "t81",
+            "t80"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 10,
+      "spec": {
+        "itemCount": 90,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20261370,
+          "ok": true,
+          "items": 90,
+          "types": 10,
+          "layers": 6,
+          "edges": 430,
+          "pile": "541x545",
+          "avgVisible": 23,
+          "hiddenRatio": 39,
+          "attempts": 1,
+          "firstMoves": [
+            "t89",
+            "t76",
+            "t87",
+            "t25",
+            "t85",
+            "t86"
+          ]
+        },
+        {
+          "seed": 20262379,
+          "ok": true,
+          "items": 90,
+          "types": 10,
+          "layers": 6,
+          "edges": 407,
+          "pile": "562x503",
+          "avgVisible": 23,
+          "hiddenRatio": 37,
+          "attempts": 1,
+          "firstMoves": [
+            "t41",
+            "t89",
+            "t79",
+            "t87",
+            "t84",
+            "t86"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 11,
+      "spec": {
+        "itemCount": 90,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20261507,
+          "ok": true,
+          "items": 90,
+          "types": 10,
+          "layers": 6,
+          "edges": 425,
+          "pile": "533x550",
+          "avgVisible": 23,
+          "hiddenRatio": 32,
+          "attempts": 1,
+          "firstMoves": [
+            "t83",
+            "t85",
+            "t88",
+            "t6",
+            "t86",
+            "t78"
+          ]
+        },
+        {
+          "seed": 20262516,
+          "ok": true,
+          "items": 90,
+          "types": 10,
+          "layers": 6,
+          "edges": 406,
+          "pile": "510x523",
+          "avgVisible": 23,
+          "hiddenRatio": 36,
+          "attempts": 1,
+          "firstMoves": [
+            "t82",
+            "t65",
+            "t8",
+            "t88",
+            "t83",
+            "t80"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 12,
+      "spec": {
+        "itemCount": 93,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20261644,
+          "ok": true,
+          "items": 93,
+          "types": 10,
+          "layers": 6,
+          "edges": 437,
+          "pile": "578x521",
+          "avgVisible": 23,
+          "hiddenRatio": 31,
+          "attempts": 1,
+          "firstMoves": [
+            "t92",
+            "t65",
+            "t89",
+            "t66",
+            "t90",
+            "t88"
+          ]
+        },
+        {
+          "seed": 20262653,
+          "ok": true,
+          "items": 93,
+          "types": 10,
+          "layers": 6,
+          "edges": 454,
+          "pile": "543x493",
+          "avgVisible": 22,
+          "hiddenRatio": 35,
+          "attempts": 1,
+          "firstMoves": [
+            "t90",
+            "t89",
+            "t85",
+            "t81",
+            "t51",
+            "t87"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 13,
+      "spec": {
+        "itemCount": 93,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20261781,
+          "ok": true,
+          "items": 93,
+          "types": 10,
+          "layers": 6,
+          "edges": 441,
+          "pile": "555x519",
+          "avgVisible": 23,
+          "hiddenRatio": 34,
+          "attempts": 1,
+          "firstMoves": [
+            "t88",
+            "t90",
+            "t82",
+            "t53",
+            "t85",
+            "t87"
+          ]
+        },
+        {
+          "seed": 20262790,
+          "ok": true,
+          "items": 93,
+          "types": 10,
+          "layers": 6,
+          "edges": 439,
+          "pile": "570x513",
+          "avgVisible": 22,
+          "hiddenRatio": 37,
+          "attempts": 1,
+          "firstMoves": [
+            "t90",
+            "t77",
+            "t28",
+            "t88",
+            "t91",
+            "t87"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 14,
+      "spec": {
+        "itemCount": 96,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20261918,
+          "ok": true,
+          "items": 96,
+          "types": 10,
+          "layers": 6,
+          "edges": 483,
+          "pile": "527x520",
+          "avgVisible": 21,
+          "hiddenRatio": 38,
+          "attempts": 1,
+          "firstMoves": [
+            "t95",
+            "t94",
+            "t88",
+            "t93",
+            "t66",
+            "t61"
+          ]
+        },
+        {
+          "seed": 20262927,
+          "ok": true,
+          "items": 96,
+          "types": 10,
+          "layers": 6,
+          "edges": 427,
+          "pile": "568x549",
+          "avgVisible": 23,
+          "hiddenRatio": 28,
+          "attempts": 1,
+          "firstMoves": [
+            "t92",
+            "t93",
+            "t88",
+            "t91",
+            "t87",
+            "t89"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 15,
+      "spec": {
+        "itemCount": 99,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20262055,
+          "ok": true,
+          "items": 99,
+          "types": 11,
+          "layers": 6,
+          "edges": 494,
+          "pile": "591x490",
+          "avgVisible": 22,
+          "hiddenRatio": 35,
+          "attempts": 1,
+          "firstMoves": [
+            "t25",
+            "t98",
+            "t93",
+            "t94",
+            "t96",
+            "t75"
+          ]
+        },
+        {
+          "seed": 20263064,
+          "ok": true,
+          "items": 99,
+          "types": 11,
+          "layers": 6,
+          "edges": 493,
+          "pile": "519x559",
+          "avgVisible": 20,
+          "hiddenRatio": 37,
+          "attempts": 1,
+          "firstMoves": [
+            "t47",
+            "t69",
+            "t94",
+            "t95",
+            "t96",
+            "t64"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 16,
+      "spec": {
+        "itemCount": 99,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20262192,
+          "ok": true,
+          "items": 99,
+          "types": 11,
+          "layers": 6,
+          "edges": 507,
+          "pile": "531x521",
+          "avgVisible": 21,
+          "hiddenRatio": 37,
+          "attempts": 1,
+          "firstMoves": [
+            "t93",
+            "t82",
+            "t94",
+            "t98",
+            "t91",
+            "t84"
+          ]
+        },
+        {
+          "seed": 20263201,
+          "ok": true,
+          "items": 99,
+          "types": 11,
+          "layers": 6,
+          "edges": 512,
+          "pile": "530x483",
+          "avgVisible": 20,
+          "hiddenRatio": 39,
+          "attempts": 1,
+          "firstMoves": [
+            "t98",
+            "t97",
+            "t82",
+            "t95",
+            "t89",
+            "t94"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 17,
+      "spec": {
+        "itemCount": 102,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20262329,
+          "ok": true,
+          "items": 102,
+          "types": 11,
+          "layers": 6,
+          "edges": 532,
+          "pile": "552x524",
+          "avgVisible": 20,
+          "hiddenRatio": 42,
+          "attempts": 1,
+          "firstMoves": [
+            "t48",
+            "t101",
+            "t99",
+            "t40",
+            "t96",
+            "t100"
+          ]
+        },
+        {
+          "seed": 20263338,
+          "ok": true,
+          "items": 102,
+          "types": 11,
+          "layers": 6,
+          "edges": 524,
+          "pile": "568x529",
+          "avgVisible": 21,
+          "hiddenRatio": 41,
+          "attempts": 1,
+          "firstMoves": [
+            "t101",
+            "t91",
+            "t97",
+            "t100",
+            "t93",
+            "t92"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 18,
+      "spec": {
+        "itemCount": 105,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20262466,
+          "ok": true,
+          "items": 105,
+          "types": 11,
+          "layers": 6,
+          "edges": 538,
+          "pile": "547x556",
+          "avgVisible": 21,
+          "hiddenRatio": 41,
+          "attempts": 1,
+          "firstMoves": [
+            "t104",
+            "t102",
+            "t101",
+            "t90",
+            "t88",
+            "t103"
+          ]
+        },
+        {
+          "seed": 20263475,
+          "ok": true,
+          "items": 105,
+          "types": 11,
+          "layers": 6,
+          "edges": 570,
+          "pile": "554x512",
+          "avgVisible": 20,
+          "hiddenRatio": 37,
+          "attempts": 1,
+          "firstMoves": [
+            "t94",
+            "t87",
+            "t98",
+            "t102",
+            "t95",
+            "t85"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 19,
+      "spec": {
+        "itemCount": 105,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20262603,
+          "ok": true,
+          "items": 105,
+          "types": 12,
+          "layers": 6,
+          "edges": 561,
+          "pile": "551x563",
+          "avgVisible": 21,
+          "hiddenRatio": 42,
+          "attempts": 1,
+          "firstMoves": [
+            "t97",
+            "t103",
+            "t104",
+            "t101",
+            "t95",
+            "t100"
+          ]
+        },
+        {
+          "seed": 20263612,
+          "ok": true,
+          "items": 105,
+          "types": 12,
+          "layers": 6,
+          "edges": 607,
+          "pile": "526x505",
+          "avgVisible": 19,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t26",
+            "t103",
+            "t97",
+            "t95",
+            "t9",
+            "t102"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 20,
+      "spec": {
+        "itemCount": 108,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20262740,
+          "ok": true,
+          "items": 108,
+          "types": 12,
+          "layers": 6,
+          "edges": 645,
+          "pile": "555x505",
+          "avgVisible": 20,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t104",
+            "t98",
+            "t105",
+            "t100",
+            "t74",
+            "t86"
+          ]
+        },
+        {
+          "seed": 20263749,
+          "ok": true,
+          "items": 108,
+          "types": 12,
+          "layers": 6,
+          "edges": 628,
+          "pile": "503x583",
+          "avgVisible": 19,
+          "hiddenRatio": 41,
+          "attempts": 1,
+          "firstMoves": [
+            "t106",
+            "t98",
+            "t82",
+            "t101",
+            "t3",
+            "t107"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 21,
+      "spec": {
+        "itemCount": 108,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20262877,
+          "ok": true,
+          "items": 108,
+          "types": 10,
+          "layers": 7,
+          "edges": 641,
+          "pile": "552x478",
+          "avgVisible": 19,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t105",
+            "t36",
+            "t103",
+            "t104",
+            "t102",
+            "t106"
+          ]
+        },
+        {
+          "seed": 20263886,
+          "ok": true,
+          "items": 108,
+          "types": 10,
+          "layers": 7,
+          "edges": 584,
+          "pile": "538x539",
+          "avgVisible": 20,
+          "hiddenRatio": 33,
+          "attempts": 1,
+          "firstMoves": [
+            "t105",
+            "t25",
+            "t102",
+            "t106",
+            "t15",
+            "t100"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 22,
+      "spec": {
+        "itemCount": 108,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20263014,
+          "ok": true,
+          "items": 108,
+          "types": 10,
+          "layers": 6,
+          "edges": 579,
+          "pile": "540x496",
+          "avgVisible": 20,
+          "hiddenRatio": 41,
+          "attempts": 1,
+          "firstMoves": [
+            "t87",
+            "t107",
+            "t104",
+            "t98",
+            "t105",
+            "t89"
+          ]
+        },
+        {
+          "seed": 20264023,
+          "ok": true,
+          "items": 108,
+          "types": 10,
+          "layers": 6,
+          "edges": 595,
+          "pile": "580x517",
+          "avgVisible": 20,
+          "hiddenRatio": 37,
+          "attempts": 1,
+          "firstMoves": [
+            "t49",
+            "t107",
+            "t101",
+            "t93",
+            "t102",
+            "t106"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 23,
+      "spec": {
+        "itemCount": 111,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20263151,
+          "ok": true,
+          "items": 111,
+          "types": 10,
+          "layers": 6,
+          "edges": 625,
+          "pile": "551x559",
+          "avgVisible": 20,
+          "hiddenRatio": 41,
+          "attempts": 1,
+          "firstMoves": [
+            "t108",
+            "t106",
+            "t110",
+            "t107",
+            "t105",
+            "t109"
+          ]
+        },
+        {
+          "seed": 20264160,
+          "ok": true,
+          "items": 111,
+          "types": 10,
+          "layers": 6,
+          "edges": 627,
+          "pile": "549x500",
+          "avgVisible": 18,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t10",
+            "t107",
+            "t95",
+            "t27",
+            "t55",
+            "t48"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 24,
+      "spec": {
+        "itemCount": 111,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20263288,
+          "ok": true,
+          "items": 111,
+          "types": 10,
+          "layers": 7,
+          "edges": 700,
+          "pile": "494x569",
+          "avgVisible": 18,
+          "hiddenRatio": 40,
+          "attempts": 1,
+          "firstMoves": [
+            "t108",
+            "t107",
+            "t8",
+            "t110",
+            "t105",
+            "t103"
+          ]
+        },
+        {
+          "seed": 20264297,
+          "ok": true,
+          "items": 111,
+          "types": 10,
+          "layers": 7,
+          "edges": 588,
+          "pile": "547x541",
+          "avgVisible": 21,
+          "hiddenRatio": 34,
+          "attempts": 1,
+          "firstMoves": [
+            "t110",
+            "t108",
+            "t109",
+            "t99",
+            "t106",
+            "t102"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 25,
+      "spec": {
+        "itemCount": 111,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20263425,
+          "ok": true,
+          "items": 111,
+          "types": 10,
+          "layers": 6,
+          "edges": 635,
+          "pile": "525x504",
+          "avgVisible": 19,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t94",
+            "t93",
+            "t107",
+            "t109",
+            "t36",
+            "t106"
+          ]
+        },
+        {
+          "seed": 20264434,
+          "ok": true,
+          "items": 111,
+          "types": 10,
+          "layers": 6,
+          "edges": 622,
+          "pile": "557x483",
+          "avgVisible": 18,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t107",
+            "t86",
+            "t109",
+            "t110",
+            "t88",
+            "t98"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 26,
+      "spec": {
+        "itemCount": 114,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20263562,
+          "ok": true,
+          "items": 114,
+          "types": 10,
+          "layers": 6,
+          "edges": 661,
+          "pile": "502x548",
+          "avgVisible": 18,
+          "hiddenRatio": 40,
+          "attempts": 1,
+          "firstMoves": [
+            "t104",
+            "t109",
+            "t90",
+            "t108",
+            "t112",
+            "t113"
+          ]
+        },
+        {
+          "seed": 20264571,
+          "ok": true,
+          "items": 114,
+          "types": 10,
+          "layers": 6,
+          "edges": 616,
+          "pile": "566x513",
+          "avgVisible": 20,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t5",
+            "t112",
+            "t49",
+            "t113",
+            "t102",
+            "t110"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 27,
+      "spec": {
+        "itemCount": 114,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20263699,
+          "ok": true,
+          "items": 114,
+          "types": 10,
+          "layers": 7,
+          "edges": 658,
+          "pile": "579x543",
+          "avgVisible": 20,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t112",
+            "t31",
+            "t106",
+            "t111",
+            "t105",
+            "t100"
+          ]
+        },
+        {
+          "seed": 20264708,
+          "ok": true,
+          "items": 114,
+          "types": 10,
+          "layers": 7,
+          "edges": 674,
+          "pile": "560x567",
+          "avgVisible": 19,
+          "hiddenRatio": 40,
+          "attempts": 1,
+          "firstMoves": [
+            "t111",
+            "t104",
+            "t97",
+            "t109",
+            "t75",
+            "t112"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 28,
+      "spec": {
+        "itemCount": 114,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20263836,
+          "ok": true,
+          "items": 114,
+          "types": 10,
+          "layers": 6,
+          "edges": 716,
+          "pile": "545x549",
+          "avgVisible": 19,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t112",
+            "t29",
+            "t113",
+            "t107",
+            "t110",
+            "t54"
+          ]
+        },
+        {
+          "seed": 20264845,
+          "ok": true,
+          "items": 114,
+          "types": 10,
+          "layers": 6,
+          "edges": 702,
+          "pile": "507x522",
+          "avgVisible": 18,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t48",
+            "t104",
+            "t111",
+            "t106",
+            "t113",
+            "t112"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 29,
+      "spec": {
+        "itemCount": 117,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20263973,
+          "ok": true,
+          "items": 117,
+          "types": 10,
+          "layers": 6,
+          "edges": 695,
+          "pile": "541x520",
+          "avgVisible": 18,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t27",
+            "t115",
+            "t10",
+            "t116",
+            "t113",
+            "t114"
+          ]
+        },
+        {
+          "seed": 20264982,
+          "ok": true,
+          "items": 117,
+          "types": 10,
+          "layers": 6,
+          "edges": 754,
+          "pile": "540x496",
+          "avgVisible": 17,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t115",
+            "t110",
+            "t114",
+            "t113",
+            "t111",
+            "t104"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 30,
+      "spec": {
+        "itemCount": 117,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20264110,
+          "ok": true,
+          "items": 117,
+          "types": 10,
+          "layers": 7,
+          "edges": 790,
+          "pile": "551x452",
+          "avgVisible": 17,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t110",
+            "t104",
+            "t79",
+            "t115",
+            "t114",
+            "t116"
+          ]
+        },
+        {
+          "seed": 20265119,
+          "ok": true,
+          "items": 117,
+          "types": 10,
+          "layers": 7,
+          "edges": 731,
+          "pile": "568x544",
+          "avgVisible": 18,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t116",
+            "t106",
+            "t113",
+            "t111",
+            "t115",
+            "t93"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 31,
+      "spec": {
+        "itemCount": 117,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20264247,
+          "ok": true,
+          "items": 117,
+          "types": 10,
+          "layers": 6,
+          "edges": 664,
+          "pile": "540x527",
+          "avgVisible": 19,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t114",
+            "t99",
+            "t111",
+            "t25",
+            "t107",
+            "t109"
+          ]
+        },
+        {
+          "seed": 20265256,
+          "ok": true,
+          "items": 117,
+          "types": 10,
+          "layers": 6,
+          "edges": 681,
+          "pile": "556x534",
+          "avgVisible": 19,
+          "hiddenRatio": 41,
+          "attempts": 1,
+          "firstMoves": [
+            "t116",
+            "t113",
+            "t109",
+            "t107",
+            "t111",
+            "t114"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 32,
+      "spec": {
+        "itemCount": 120,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20264384,
+          "ok": true,
+          "items": 120,
+          "types": 10,
+          "layers": 6,
+          "edges": 733,
+          "pile": "544x535",
+          "avgVisible": 18,
+          "hiddenRatio": 43,
+          "attempts": 1,
+          "firstMoves": [
+            "t119",
+            "t115",
+            "t118",
+            "t113",
+            "t114",
+            "t116"
+          ]
+        },
+        {
+          "seed": 20265393,
+          "ok": true,
+          "items": 120,
+          "types": 10,
+          "layers": 6,
+          "edges": 677,
+          "pile": "563x610",
+          "avgVisible": 19,
+          "hiddenRatio": 39,
+          "attempts": 1,
+          "firstMoves": [
+            "t34",
+            "t92",
+            "t114",
+            "t117",
+            "t112",
+            "t116"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 33,
+      "spec": {
+        "itemCount": 120,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20264521,
+          "ok": true,
+          "items": 120,
+          "types": 10,
+          "layers": 7,
+          "edges": 794,
+          "pile": "479x542",
+          "avgVisible": 16,
+          "hiddenRatio": 42,
+          "attempts": 1,
+          "firstMoves": [
+            "t105",
+            "t112",
+            "t116",
+            "t106",
+            "t111",
+            "t119"
+          ]
+        },
+        {
+          "seed": 20265530,
+          "ok": true,
+          "items": 120,
+          "types": 10,
+          "layers": 7,
+          "edges": 785,
+          "pile": "512x525",
+          "avgVisible": 17,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t0",
+            "t104",
+            "t117",
+            "t118",
+            "t111",
+            "t116"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 34,
+      "spec": {
+        "itemCount": 120,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20264658,
+          "ok": true,
+          "items": 120,
+          "types": 10,
+          "layers": 6,
+          "edges": 696,
+          "pile": "568x574",
+          "avgVisible": 19,
+          "hiddenRatio": 38,
+          "attempts": 1,
+          "firstMoves": [
+            "t119",
+            "t114",
+            "t110",
+            "t105",
+            "t107",
+            "t106"
+          ]
+        },
+        {
+          "seed": 20265667,
+          "ok": true,
+          "items": 120,
+          "types": 10,
+          "layers": 6,
+          "edges": 778,
+          "pile": "534x475",
+          "avgVisible": 17,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t117",
+            "t119",
+            "t114",
+            "t105",
+            "t112",
+            "t110"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 35,
+      "spec": {
+        "itemCount": 123,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20264795,
+          "ok": true,
+          "items": 123,
+          "types": 10,
+          "layers": 6,
+          "edges": 755,
+          "pile": "563x533",
+          "avgVisible": 18,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t97",
+            "t116",
+            "t120",
+            "t53",
+            "t118",
+            "t121"
+          ]
+        },
+        {
+          "seed": 20265804,
+          "ok": true,
+          "items": 123,
+          "types": 10,
+          "layers": 6,
+          "edges": 762,
+          "pile": "553x494",
+          "avgVisible": 18,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t118",
+            "t117",
+            "t110",
+            "t122",
+            "t121",
+            "t119"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 36,
+      "spec": {
+        "itemCount": 123,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20264932,
+          "ok": true,
+          "items": 123,
+          "types": 10,
+          "layers": 7,
+          "edges": 807,
+          "pile": "537x500",
+          "avgVisible": 18,
+          "hiddenRatio": 42,
+          "attempts": 1,
+          "firstMoves": [
+            "t122",
+            "t24",
+            "t117",
+            "t121",
+            "t118",
+            "t113"
+          ]
+        },
+        {
+          "seed": 20265941,
+          "ok": true,
+          "items": 123,
+          "types": 10,
+          "layers": 7,
+          "edges": 816,
+          "pile": "527x507",
+          "avgVisible": 17,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t121",
+            "t120",
+            "t113",
+            "t111",
+            "t122",
+            "t106"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 37,
+      "spec": {
+        "itemCount": 123,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20265069,
+          "ok": true,
+          "items": 123,
+          "types": 10,
+          "layers": 6,
+          "edges": 793,
+          "pile": "541x494",
+          "avgVisible": 16,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t116",
+            "t117",
+            "t101",
+            "t121",
+            "t120",
+            "t84"
+          ]
+        },
+        {
+          "seed": 20266078,
+          "ok": true,
+          "items": 123,
+          "types": 10,
+          "layers": 6,
+          "edges": 738,
+          "pile": "561x530",
+          "avgVisible": 17,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t118",
+            "t119",
+            "t117",
+            "t99",
+            "t120",
+            "t112"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 38,
+      "spec": {
+        "itemCount": 126,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20265206,
+          "ok": true,
+          "items": 126,
+          "types": 10,
+          "layers": 6,
+          "edges": 825,
+          "pile": "546x505",
+          "avgVisible": 17,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t114",
+            "t120",
+            "t125",
+            "t124",
+            "t102",
+            "t119"
+          ]
+        },
+        {
+          "seed": 20266215,
+          "ok": true,
+          "items": 126,
+          "types": 10,
+          "layers": 6,
+          "edges": 735,
+          "pile": "578x539",
+          "avgVisible": 19,
+          "hiddenRatio": 44,
+          "attempts": 1,
+          "firstMoves": [
+            "t122",
+            "t124",
+            "t119",
+            "t125",
+            "t123",
+            "t120"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 39,
+      "spec": {
+        "itemCount": 126,
+        "typeCount": 10,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20265343,
+          "ok": true,
+          "items": 126,
+          "types": 10,
+          "layers": 7,
+          "edges": 855,
+          "pile": "497x530",
+          "avgVisible": 15,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t124",
+            "t123",
+            "t114",
+            "t119",
+            "t115",
+            "t107"
+          ]
+        },
+        {
+          "seed": 20266352,
+          "ok": true,
+          "items": 126,
+          "types": 10,
+          "layers": 7,
+          "edges": 816,
+          "pile": "582x566",
+          "avgVisible": 18,
+          "hiddenRatio": 40,
+          "attempts": 1,
+          "firstMoves": [
+            "t113",
+            "t124",
+            "t82",
+            "t125",
+            "t122",
+            "t123"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 40,
+      "spec": {
+        "itemCount": 126,
+        "typeCount": 10,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20265480,
+          "ok": true,
+          "items": 126,
+          "types": 10,
+          "layers": 6,
+          "edges": 848,
+          "pile": "576x531",
+          "avgVisible": 17,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t123",
+            "t108",
+            "t125",
+            "t119",
+            "t116",
+            "t114"
+          ]
+        },
+        {
+          "seed": 20266489,
+          "ok": true,
+          "items": 126,
+          "types": 10,
+          "layers": 6,
+          "edges": 831,
+          "pile": "549x521",
+          "avgVisible": 17,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t124",
+            "t123",
+            "t125",
+            "t122",
+            "t120",
+            "t113"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 41,
+      "spec": {
+        "itemCount": 129,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20265617,
+          "ok": true,
+          "items": 129,
+          "types": 11,
+          "layers": 6,
+          "edges": 839,
+          "pile": "576x551",
+          "avgVisible": 17,
+          "hiddenRatio": 43,
+          "attempts": 1,
+          "firstMoves": [
+            "t128",
+            "t125",
+            "t127",
+            "t126",
+            "t120",
+            "t119"
+          ]
+        },
+        {
+          "seed": 20266626,
+          "ok": true,
+          "items": 129,
+          "types": 11,
+          "layers": 6,
+          "edges": 766,
+          "pile": "567x543",
+          "avgVisible": 18,
+          "hiddenRatio": 43,
+          "attempts": 1,
+          "firstMoves": [
+            "t125",
+            "t127",
+            "t122",
+            "t116",
+            "t128",
+            "t115"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 42,
+      "spec": {
+        "itemCount": 129,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20265754,
+          "ok": true,
+          "items": 129,
+          "types": 11,
+          "layers": 7,
+          "edges": 869,
+          "pile": "564x497",
+          "avgVisible": 17,
+          "hiddenRatio": 43,
+          "attempts": 1,
+          "firstMoves": [
+            "t128",
+            "t110",
+            "t121",
+            "t126",
+            "t125",
+            "t124"
+          ]
+        },
+        {
+          "seed": 20266763,
+          "ok": true,
+          "items": 129,
+          "types": 11,
+          "layers": 7,
+          "edges": 939,
+          "pile": "536x512",
+          "avgVisible": 16,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t123",
+            "t127",
+            "t126",
+            "t125",
+            "t122",
+            "t120"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 43,
+      "spec": {
+        "itemCount": 129,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20265891,
+          "ok": true,
+          "items": 129,
+          "types": 11,
+          "layers": 6,
+          "edges": 828,
+          "pile": "564x548",
+          "avgVisible": 18,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t6",
+            "t125",
+            "t78",
+            "t128",
+            "t124",
+            "t122"
+          ]
+        },
+        {
+          "seed": 20266900,
+          "ok": true,
+          "items": 129,
+          "types": 11,
+          "layers": 6,
+          "edges": 849,
+          "pile": "570x535",
+          "avgVisible": 16,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t128",
+            "t125",
+            "t121",
+            "t124",
+            "t122",
+            "t119"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 44,
+      "spec": {
+        "itemCount": 132,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20266028,
+          "ok": true,
+          "items": 132,
+          "types": 11,
+          "layers": 6,
+          "edges": 851,
+          "pile": "568x516",
+          "avgVisible": 16,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t129",
+            "t130",
+            "t131",
+            "t81",
+            "t127",
+            "t126"
+          ]
+        },
+        {
+          "seed": 20267037,
+          "ok": true,
+          "items": 132,
+          "types": 11,
+          "layers": 6,
+          "edges": 885,
+          "pile": "590x541",
+          "avgVisible": 16,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t130",
+            "t126",
+            "t103",
+            "t121",
+            "t128",
+            "t119"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 45,
+      "spec": {
+        "itemCount": 132,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20266165,
+          "ok": true,
+          "items": 132,
+          "types": 11,
+          "layers": 7,
+          "edges": 880,
+          "pile": "561x564",
+          "avgVisible": 17,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t129",
+            "t128",
+            "t126",
+            "t121",
+            "t124",
+            "t125"
+          ]
+        },
+        {
+          "seed": 20267174,
+          "ok": true,
+          "items": 132,
+          "types": 11,
+          "layers": 7,
+          "edges": 870,
+          "pile": "567x582",
+          "avgVisible": 17,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t121",
+            "t128",
+            "t119",
+            "t126",
+            "t91",
+            "t129"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 46,
+      "spec": {
+        "itemCount": 132,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20266302,
+          "ok": true,
+          "items": 132,
+          "types": 11,
+          "layers": 6,
+          "edges": 936,
+          "pile": "506x501",
+          "avgVisible": 16,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t128",
+            "t131",
+            "t122",
+            "t121",
+            "t130",
+            "t119"
+          ]
+        },
+        {
+          "seed": 20267311,
+          "ok": true,
+          "items": 132,
+          "types": 11,
+          "layers": 6,
+          "edges": 854,
+          "pile": "567x520",
+          "avgVisible": 16,
+          "hiddenRatio": 43,
+          "attempts": 1,
+          "firstMoves": [
+            "t129",
+            "t101",
+            "t130",
+            "t121",
+            "t120",
+            "t127"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 47,
+      "spec": {
+        "itemCount": 135,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20266439,
+          "ok": true,
+          "items": 135,
+          "types": 11,
+          "layers": 6,
+          "edges": 1013,
+          "pile": "568x493",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t96",
+            "t133",
+            "t130",
+            "t129",
+            "t124",
+            "t94"
+          ]
+        },
+        {
+          "seed": 20267448,
+          "ok": true,
+          "items": 135,
+          "types": 11,
+          "layers": 6,
+          "edges": 888,
+          "pile": "585x515",
+          "avgVisible": 17,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t132",
+            "t134",
+            "t122",
+            "t130",
+            "t133",
+            "t126"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 48,
+      "spec": {
+        "itemCount": 135,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20266576,
+          "ok": true,
+          "items": 135,
+          "types": 11,
+          "layers": 7,
+          "edges": 887,
+          "pile": "578x531",
+          "avgVisible": 16,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t132",
+            "t128",
+            "t123",
+            "t122",
+            "t134",
+            "t131"
+          ]
+        },
+        {
+          "seed": 20267585,
+          "ok": true,
+          "items": 135,
+          "types": 11,
+          "layers": 7,
+          "edges": 971,
+          "pile": "570x504",
+          "avgVisible": 16,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t131",
+            "t129",
+            "t133",
+            "t119",
+            "t134",
+            "t132"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 49,
+      "spec": {
+        "itemCount": 135,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20266713,
+          "ok": true,
+          "items": 135,
+          "types": 11,
+          "layers": 6,
+          "edges": 953,
+          "pile": "541x565",
+          "avgVisible": 16,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t134",
+            "t126",
+            "t132",
+            "t133",
+            "t90",
+            "t114"
+          ]
+        },
+        {
+          "seed": 20267722,
+          "ok": true,
+          "items": 135,
+          "types": 11,
+          "layers": 6,
+          "edges": 931,
+          "pile": "587x504",
+          "avgVisible": 16,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t13",
+            "t133",
+            "t109",
+            "t134",
+            "t129",
+            "t126"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 50,
+      "spec": {
+        "itemCount": 138,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20266850,
+          "ok": true,
+          "items": 138,
+          "types": 11,
+          "layers": 6,
+          "edges": 1082,
+          "pile": "601x506",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t134",
+            "t133",
+            "t50",
+            "t136",
+            "t132",
+            "t127"
+          ]
+        },
+        {
+          "seed": 20267859,
+          "ok": true,
+          "items": 138,
+          "types": 11,
+          "layers": 6,
+          "edges": 1022,
+          "pile": "564x497",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t135",
+            "t133",
+            "t137",
+            "t134",
+            "t136",
+            "t131"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 51,
+      "spec": {
+        "itemCount": 138,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20266987,
+          "ok": true,
+          "items": 138,
+          "types": 11,
+          "layers": 7,
+          "edges": 1006,
+          "pile": "533x479",
+          "avgVisible": 15,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t136",
+            "t132",
+            "t134",
+            "t130",
+            "t126",
+            "t125"
+          ]
+        },
+        {
+          "seed": 20267996,
+          "ok": true,
+          "items": 138,
+          "types": 11,
+          "layers": 7,
+          "edges": 1001,
+          "pile": "556x507",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t137",
+            "t132",
+            "t133",
+            "t136",
+            "t135",
+            "t117"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 52,
+      "spec": {
+        "itemCount": 138,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20267124,
+          "ok": true,
+          "items": 138,
+          "types": 11,
+          "layers": 6,
+          "edges": 987,
+          "pile": "553x552",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t135",
+            "t130",
+            "t134",
+            "t37",
+            "t131",
+            "t120"
+          ]
+        },
+        {
+          "seed": 20268133,
+          "ok": true,
+          "items": 138,
+          "types": 11,
+          "layers": 6,
+          "edges": 1006,
+          "pile": "541x498",
+          "avgVisible": 15,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t137",
+            "t134",
+            "t135",
+            "t136",
+            "t122",
+            "t132"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 53,
+      "spec": {
+        "itemCount": 141,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20267261,
+          "ok": true,
+          "items": 141,
+          "types": 11,
+          "layers": 6,
+          "edges": 1021,
+          "pile": "559x499",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t140",
+            "t134",
+            "t67",
+            "t135",
+            "t128",
+            "t79"
+          ]
+        },
+        {
+          "seed": 20268270,
+          "ok": true,
+          "items": 141,
+          "types": 11,
+          "layers": 6,
+          "edges": 958,
+          "pile": "581x526",
+          "avgVisible": 17,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t139",
+            "t133",
+            "t137",
+            "t132",
+            "t138",
+            "t92"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 54,
+      "spec": {
+        "itemCount": 141,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20267398,
+          "ok": true,
+          "items": 141,
+          "types": 11,
+          "layers": 7,
+          "edges": 1019,
+          "pile": "547x537",
+          "avgVisible": 16,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t104",
+            "t139",
+            "t134",
+            "t125",
+            "t124",
+            "t11"
+          ]
+        },
+        {
+          "seed": 20268407,
+          "ok": true,
+          "items": 141,
+          "types": 11,
+          "layers": 7,
+          "edges": 1097,
+          "pile": "542x532",
+          "avgVisible": 16,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t8",
+            "t132",
+            "t140",
+            "t139",
+            "t131",
+            "t26"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 55,
+      "spec": {
+        "itemCount": 141,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20267535,
+          "ok": true,
+          "items": 141,
+          "types": 11,
+          "layers": 6,
+          "edges": 1025,
+          "pile": "567x543",
+          "avgVisible": 16,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t140",
+            "t137",
+            "t131",
+            "t138",
+            "t129",
+            "t139"
+          ]
+        },
+        {
+          "seed": 20268544,
+          "ok": true,
+          "items": 141,
+          "types": 11,
+          "layers": 6,
+          "edges": 1006,
+          "pile": "570x580",
+          "avgVisible": 16,
+          "hiddenRatio": 54,
+          "attempts": 1,
+          "firstMoves": [
+            "t133",
+            "t134",
+            "t137",
+            "t117",
+            "t120",
+            "t140"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 56,
+      "spec": {
+        "itemCount": 144,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20267672,
+          "ok": true,
+          "items": 144,
+          "types": 11,
+          "layers": 6,
+          "edges": 966,
+          "pile": "588x598",
+          "avgVisible": 18,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t143",
+            "t26",
+            "t142",
+            "t140",
+            "t135",
+            "t18"
+          ]
+        },
+        {
+          "seed": 20268681,
+          "ok": true,
+          "items": 144,
+          "types": 11,
+          "layers": 6,
+          "edges": 1006,
+          "pile": "576x513",
+          "avgVisible": 16,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t138",
+            "t133",
+            "t141",
+            "t139",
+            "t136",
+            "t32"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 57,
+      "spec": {
+        "itemCount": 144,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20267809,
+          "ok": true,
+          "items": 144,
+          "types": 11,
+          "layers": 7,
+          "edges": 1034,
+          "pile": "604x548",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t142",
+            "t137",
+            "t133",
+            "t140",
+            "t143",
+            "t126"
+          ]
+        },
+        {
+          "seed": 20268818,
+          "ok": true,
+          "items": 144,
+          "types": 11,
+          "layers": 7,
+          "edges": 1121,
+          "pile": "549x499",
+          "avgVisible": 16,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t131",
+            "t143",
+            "t138",
+            "t141",
+            "t136",
+            "t135"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 58,
+      "spec": {
+        "itemCount": 144,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20267946,
+          "ok": true,
+          "items": 144,
+          "types": 11,
+          "layers": 6,
+          "edges": 973,
+          "pile": "596x534",
+          "avgVisible": 16,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t124",
+            "t142",
+            "t42",
+            "t54",
+            "t141",
+            "t139"
+          ]
+        },
+        {
+          "seed": 20268955,
+          "ok": true,
+          "items": 144,
+          "types": 11,
+          "layers": 6,
+          "edges": 1079,
+          "pile": "561x550",
+          "avgVisible": 16,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t137",
+            "t141",
+            "t139",
+            "t13",
+            "t133",
+            "t126"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 59,
+      "spec": {
+        "itemCount": 147,
+        "typeCount": 11,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20268083,
+          "ok": true,
+          "items": 147,
+          "types": 11,
+          "layers": 6,
+          "edges": 1139,
+          "pile": "537x533",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t142",
+            "t136",
+            "t143",
+            "t141",
+            "t129",
+            "t4"
+          ]
+        },
+        {
+          "seed": 20269092,
+          "ok": true,
+          "items": 147,
+          "types": 11,
+          "layers": 6,
+          "edges": 1026,
+          "pile": "610x512",
+          "avgVisible": 17,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t142",
+            "t128",
+            "t145",
+            "t137",
+            "t12"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 60,
+      "spec": {
+        "itemCount": 147,
+        "typeCount": 11,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20268220,
+          "ok": true,
+          "items": 147,
+          "types": 11,
+          "layers": 7,
+          "edges": 1136,
+          "pile": "541x528",
+          "avgVisible": 15,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t143",
+            "t139",
+            "t136",
+            "t144",
+            "t146",
+            "t140"
+          ]
+        },
+        {
+          "seed": 20269229,
+          "ok": true,
+          "items": 147,
+          "types": 11,
+          "layers": 7,
+          "edges": 1232,
+          "pile": "553x496",
+          "avgVisible": 14,
+          "hiddenRatio": 54,
+          "attempts": 1,
+          "firstMoves": [
+            "t138",
+            "t17",
+            "t146",
+            "t142",
+            "t144",
+            "t143"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 61,
+      "spec": {
+        "itemCount": 147,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20268357,
+          "ok": true,
+          "items": 147,
+          "types": 12,
+          "layers": 6,
+          "edges": 1125,
+          "pile": "550x515",
+          "avgVisible": 14,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t135",
+            "t141",
+            "t122",
+            "t145",
+            "t142",
+            "t140"
+          ]
+        },
+        {
+          "seed": 20269366,
+          "ok": true,
+          "items": 147,
+          "types": 12,
+          "layers": 6,
+          "edges": 1079,
+          "pile": "550x553",
+          "avgVisible": 15,
+          "hiddenRatio": 56,
+          "attempts": 1,
+          "firstMoves": [
+            "t138",
+            "t139",
+            "t143",
+            "t133",
+            "t145",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 62,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20268494,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1094,
+          "pile": "618x542",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t143",
+            "t135",
+            "t141",
+            "t149",
+            "t148",
+            "t147"
+          ]
+        },
+        {
+          "seed": 20269503,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1126,
+          "pile": "535x534",
+          "avgVisible": 14,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t144",
+            "t148",
+            "t149",
+            "t147",
+            "t132",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 63,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20268631,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1159,
+          "pile": "604x542",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t127",
+            "t6",
+            "t147",
+            "t145",
+            "t144"
+          ]
+        },
+        {
+          "seed": 20269640,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1146,
+          "pile": "553x562",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t149",
+            "t147",
+            "t142",
+            "t145",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 64,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20268768,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1100,
+          "pile": "567x517",
+          "avgVisible": 15,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t143",
+            "t138",
+            "t146",
+            "t137",
+            "t125"
+          ]
+        },
+        {
+          "seed": 20269777,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1053,
+          "pile": "543x533",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t148",
+            "t139",
+            "t143",
+            "t144",
+            "t140"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 65,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20268905,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1117,
+          "pile": "596x553",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t144",
+            "t142",
+            "t149",
+            "t145",
+            "t148",
+            "t141"
+          ]
+        },
+        {
+          "seed": 20269914,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1146,
+          "pile": "550x508",
+          "avgVisible": 14,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t129",
+            "t143",
+            "t145",
+            "t146",
+            "t149",
+            "t124"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 66,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20269042,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1207,
+          "pile": "572x548",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t140",
+            "t146",
+            "t143",
+            "t35",
+            "t149",
+            "t147"
+          ]
+        },
+        {
+          "seed": 20270051,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1199,
+          "pile": "557x570",
+          "avgVisible": 16,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t45",
+            "t147",
+            "t149",
+            "t146",
+            "t127"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 67,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20269179,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1171,
+          "pile": "536x522",
+          "avgVisible": 15,
+          "hiddenRatio": 54,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t148",
+            "t147",
+            "t149",
+            "t138",
+            "t130"
+          ]
+        },
+        {
+          "seed": 20270188,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1130,
+          "pile": "603x538",
+          "avgVisible": 15,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t148",
+            "t145",
+            "t142",
+            "t143",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 68,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20269316,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1090,
+          "pile": "586x541",
+          "avgVisible": 16,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t138",
+            "t134",
+            "t146",
+            "t143",
+            "t140"
+          ]
+        },
+        {
+          "seed": 20270325,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1123,
+          "pile": "580x563",
+          "avgVisible": 16,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t144",
+            "t137",
+            "t141",
+            "t135",
+            "t129",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 69,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20269453,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1141,
+          "pile": "576x526",
+          "avgVisible": 16,
+          "hiddenRatio": 43,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t149",
+            "t145",
+            "t148",
+            "t132",
+            "t12"
+          ]
+        },
+        {
+          "seed": 20270462,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1221,
+          "pile": "546x524",
+          "avgVisible": 14,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t14",
+            "t148",
+            "t146",
+            "t144",
+            "t145",
+            "t141"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 70,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20269590,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1138,
+          "pile": "571x493",
+          "avgVisible": 14,
+          "hiddenRatio": 54,
+          "attempts": 1,
+          "firstMoves": [
+            "t136",
+            "t145",
+            "t140",
+            "t149",
+            "t126",
+            "t135"
+          ]
+        },
+        {
+          "seed": 20270599,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1116,
+          "pile": "592x545",
+          "avgVisible": 15,
+          "hiddenRatio": 56,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t145",
+            "t2",
+            "t141",
+            "t143",
+            "t139"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 71,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20269727,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1163,
+          "pile": "528x509",
+          "avgVisible": 14,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t140",
+            "t148",
+            "t142",
+            "t147",
+            "t137"
+          ]
+        },
+        {
+          "seed": 20270736,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1106,
+          "pile": "560x545",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t74",
+            "t143",
+            "t146",
+            "t130",
+            "t147"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 72,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20269864,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1200,
+          "pile": "533x541",
+          "avgVisible": 15,
+          "hiddenRatio": 45,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t145",
+            "t147",
+            "t59",
+            "t149",
+            "t148"
+          ]
+        },
+        {
+          "seed": 20270873,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1198,
+          "pile": "529x489",
+          "avgVisible": 14,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t149",
+            "t73",
+            "t147",
+            "t59",
+            "t145"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 73,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20270001,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1188,
+          "pile": "553x542",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t17",
+            "t141",
+            "t147",
+            "t145",
+            "t140"
+          ]
+        },
+        {
+          "seed": 20271010,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1152,
+          "pile": "544x567",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t143",
+            "t144",
+            "t58",
+            "t146",
+            "t134"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 74,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20270138,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1081,
+          "pile": "546x511",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t140",
+            "t139",
+            "t148",
+            "t147",
+            "t134",
+            "t145"
+          ]
+        },
+        {
+          "seed": 20271147,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1181,
+          "pile": "539x554",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t67",
+            "t122",
+            "t149",
+            "t147",
+            "t139",
+            "t144"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 75,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20270275,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1136,
+          "pile": "537x549",
+          "avgVisible": 15,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t140",
+            "t145",
+            "t148",
+            "t149",
+            "t146",
+            "t135"
+          ]
+        },
+        {
+          "seed": 20271284,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1157,
+          "pile": "574x521",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t149",
+            "t139",
+            "t145",
+            "t148",
+            "t140"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 76,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20270412,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1131,
+          "pile": "568x553",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t129",
+            "t145",
+            "t137",
+            "t147",
+            "t71"
+          ]
+        },
+        {
+          "seed": 20271421,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1207,
+          "pile": "574x539",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t33",
+            "t147",
+            "t148",
+            "t146",
+            "t4",
+            "t149"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 77,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20270549,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1141,
+          "pile": "556x533",
+          "avgVisible": 15,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t139",
+            "t93",
+            "t148",
+            "t126",
+            "t147"
+          ]
+        },
+        {
+          "seed": 20271558,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1134,
+          "pile": "576x517",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t138",
+            "t145",
+            "t144",
+            "t148",
+            "t143"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 78,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20270686,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1214,
+          "pile": "541x533",
+          "avgVisible": 15,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t141",
+            "t149",
+            "t142",
+            "t147",
+            "t138"
+          ]
+        },
+        {
+          "seed": 20271695,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1228,
+          "pile": "553x480",
+          "avgVisible": 14,
+          "hiddenRatio": 55,
+          "attempts": 1,
+          "firstMoves": [
+            "t134",
+            "t110",
+            "t125",
+            "t144",
+            "t149",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 79,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20270823,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1132,
+          "pile": "555x516",
+          "avgVisible": 15,
+          "hiddenRatio": 48,
+          "attempts": 1,
+          "firstMoves": [
+            "t132",
+            "t145",
+            "t130",
+            "t143",
+            "t149",
+            "t141"
+          ]
+        },
+        {
+          "seed": 20271832,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1138,
+          "pile": "526x498",
+          "avgVisible": 14,
+          "hiddenRatio": 55,
+          "attempts": 1,
+          "firstMoves": [
+            "t99",
+            "t72",
+            "t146",
+            "t141",
+            "t134",
+            "t148"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 80,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20270960,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1168,
+          "pile": "595x469",
+          "avgVisible": 14,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t144",
+            "t140",
+            "t149",
+            "t132",
+            "t141",
+            "t148"
+          ]
+        },
+        {
+          "seed": 20271969,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1159,
+          "pile": "572x525",
+          "avgVisible": 15,
+          "hiddenRatio": 55,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t144",
+            "t134",
+            "t146",
+            "t147",
+            "t94"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 81,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20271097,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1143,
+          "pile": "548x522",
+          "avgVisible": 14,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t141",
+            "t53",
+            "t147",
+            "t143",
+            "t89"
+          ]
+        },
+        {
+          "seed": 20272106,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1172,
+          "pile": "584x521",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t136",
+            "t139",
+            "t132",
+            "t146",
+            "t149",
+            "t141"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 82,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20271234,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1126,
+          "pile": "559x537",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t142",
+            "t147",
+            "t73",
+            "t149",
+            "t144",
+            "t141"
+          ]
+        },
+        {
+          "seed": 20272243,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1055,
+          "pile": "549x586",
+          "avgVisible": 16,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t140",
+            "t145",
+            "t135",
+            "t138",
+            "t39",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 83,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20271371,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1090,
+          "pile": "559x538",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t127",
+            "t94",
+            "t143",
+            "t102",
+            "t146"
+          ]
+        },
+        {
+          "seed": 20272380,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1173,
+          "pile": "599x516",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t142",
+            "t148",
+            "t147",
+            "t143",
+            "t145"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 84,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20271508,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1146,
+          "pile": "548x550",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t143",
+            "t145",
+            "t146",
+            "t139",
+            "t136",
+            "t141"
+          ]
+        },
+        {
+          "seed": 20272517,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1229,
+          "pile": "534x533",
+          "avgVisible": 15,
+          "hiddenRatio": 47,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t149",
+            "t143",
+            "t147",
+            "t145",
+            "t55"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 85,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20271645,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1135,
+          "pile": "541x549",
+          "avgVisible": 15,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t135",
+            "t146",
+            "t148",
+            "t149",
+            "t138",
+            "t129"
+          ]
+        },
+        {
+          "seed": 20272654,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1081,
+          "pile": "533x597",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t142",
+            "t143",
+            "t145",
+            "t149",
+            "t139"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 86,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20271782,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1166,
+          "pile": "611x469",
+          "avgVisible": 15,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t38",
+            "t145",
+            "t140",
+            "t143",
+            "t148"
+          ]
+        },
+        {
+          "seed": 20272791,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1135,
+          "pile": "561x571",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t147",
+            "t141",
+            "t125",
+            "t118",
+            "t39"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 87,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20271919,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1160,
+          "pile": "556x543",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t113",
+            "t149",
+            "t148",
+            "t133",
+            "t146",
+            "t143"
+          ]
+        },
+        {
+          "seed": 20272928,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1213,
+          "pile": "559x496",
+          "avgVisible": 14,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t113",
+            "t39",
+            "t145",
+            "t147",
+            "t146",
+            "t149"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 88,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20272056,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1154,
+          "pile": "561x566",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t143",
+            "t144",
+            "t129",
+            "t137",
+            "t142",
+            "t149"
+          ]
+        },
+        {
+          "seed": 20273065,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1095,
+          "pile": "552x496",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t144",
+            "t149",
+            "t139",
+            "t145",
+            "t130",
+            "t125"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 89,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20272193,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1196,
+          "pile": "597x533",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t140",
+            "t128",
+            "t147",
+            "t142",
+            "t144"
+          ]
+        },
+        {
+          "seed": 20273202,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1175,
+          "pile": "545x507",
+          "avgVisible": 14,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t147",
+            "t148",
+            "t138",
+            "t149",
+            "t140"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 90,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20272330,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1183,
+          "pile": "571x534",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t143",
+            "t142",
+            "t51",
+            "t148",
+            "t149",
+            "t139"
+          ]
+        },
+        {
+          "seed": 20273339,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1193,
+          "pile": "607x581",
+          "avgVisible": 16,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t7",
+            "t25",
+            "t143",
+            "t149",
+            "t147"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 91,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20272467,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1150,
+          "pile": "539x515",
+          "avgVisible": 14,
+          "hiddenRatio": 55,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t144",
+            "t99",
+            "t141",
+            "t105",
+            "t140"
+          ]
+        },
+        {
+          "seed": 20273476,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1091,
+          "pile": "543x536",
+          "avgVisible": 16,
+          "hiddenRatio": 51,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t145",
+            "t144",
+            "t135",
+            "t136",
+            "t131"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 92,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20272604,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1192,
+          "pile": "540x530",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t147",
+            "t143",
+            "t149",
+            "t145",
+            "t129"
+          ]
+        },
+        {
+          "seed": 20273613,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1226,
+          "pile": "526x544",
+          "avgVisible": 14,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t146",
+            "t148",
+            "t149",
+            "t139",
+            "t138"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 93,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20272741,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1151,
+          "pile": "564x521",
+          "avgVisible": 14,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t149",
+            "t140",
+            "t132",
+            "t124",
+            "t122",
+            "t144"
+          ]
+        },
+        {
+          "seed": 20273750,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1139,
+          "pile": "590x533",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t146",
+            "t143",
+            "t144",
+            "t140",
+            "t137"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 94,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20272878,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1173,
+          "pile": "543x538",
+          "avgVisible": 14,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t144",
+            "t149",
+            "t143",
+            "t142",
+            "t137",
+            "t146"
+          ]
+        },
+        {
+          "seed": 20273887,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1140,
+          "pile": "564x548",
+          "avgVisible": 16,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t66",
+            "t141",
+            "t146",
+            "t136",
+            "t149"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 95,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20273015,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1099,
+          "pile": "562x539",
+          "avgVisible": 15,
+          "hiddenRatio": 54,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t142",
+            "t100",
+            "t139",
+            "t144",
+            "t147"
+          ]
+        },
+        {
+          "seed": 20274024,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1087,
+          "pile": "585x517",
+          "avgVisible": 15,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t141",
+            "t101",
+            "t148",
+            "t143",
+            "t145"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 96,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20273152,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1237,
+          "pile": "556x505",
+          "avgVisible": 14,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t89",
+            "t149",
+            "t148",
+            "t136",
+            "t144",
+            "t147"
+          ]
+        },
+        {
+          "seed": 20274161,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1256,
+          "pile": "570x474",
+          "avgVisible": 14,
+          "hiddenRatio": 52,
+          "attempts": 1,
+          "firstMoves": [
+            "t148",
+            "t106",
+            "t144",
+            "t149",
+            "t146",
+            "t143"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 97,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20273289,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1247,
+          "pile": "543x544",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t138",
+            "t144",
+            "t134",
+            "t149",
+            "t143"
+          ]
+        },
+        {
+          "seed": 20274298,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1132,
+          "pile": "562x514",
+          "avgVisible": 15,
+          "hiddenRatio": 50,
+          "attempts": 1,
+          "firstMoves": [
+            "t94",
+            "t143",
+            "t149",
+            "t128",
+            "t148",
+            "t146"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 98,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20273426,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1200,
+          "pile": "553x517",
+          "avgVisible": 15,
+          "hiddenRatio": 57,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t144",
+            "t103",
+            "t149",
+            "t143",
+            "t148"
+          ]
+        },
+        {
+          "seed": 20274435,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1163,
+          "pile": "583x532",
+          "avgVisible": 15,
+          "hiddenRatio": 54,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t130",
+            "t148",
+            "t140",
+            "t149",
+            "t147"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 99,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 7
+      },
+      "runs": [
+        {
+          "seed": 20273563,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1217,
+          "pile": "583x513",
+          "avgVisible": 14,
+          "hiddenRatio": 46,
+          "attempts": 1,
+          "firstMoves": [
+            "t147",
+            "t146",
+            "t149",
+            "t148",
+            "t140",
+            "t143"
+          ]
+        },
+        {
+          "seed": 20274572,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 7,
+          "edges": 1204,
+          "pile": "562x558",
+          "avgVisible": 16,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t145",
+            "t147",
+            "t142",
+            "t149",
+            "t133",
+            "t131"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 100,
+      "spec": {
+        "itemCount": 150,
+        "typeCount": 12,
+        "layerCount": 6
+      },
+      "runs": [
+        {
+          "seed": 20273700,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1143,
+          "pile": "560x527",
+          "avgVisible": 15,
+          "hiddenRatio": 53,
+          "attempts": 1,
+          "firstMoves": [
+            "t146",
+            "t142",
+            "t129",
+            "t148",
+            "t147",
+            "t136"
+          ]
+        },
+        {
+          "seed": 20274709,
+          "ok": true,
+          "items": 150,
+          "types": 12,
+          "layers": 6,
+          "edges": 1140,
+          "pile": "561x528",
+          "avgVisible": 14,
+          "hiddenRatio": 49,
+          "attempts": 1,
+          "firstMoves": [
+            "t141",
+            "t144",
+            "t147",
+            "t148",
+            "t139",
+            "t127"
+          ]
+        }
+      ]
+    }
+  ],
+  "l2Variants": [
+    {
+      "seed": 111,
+      "verified": true,
+      "positionsHash": "5bb7062f3945",
+      "edges": 83,
+      "layers": 4,
+      "first": [
+        [
+          "donut",
+          310,
+          221,
+          0
+        ],
+        [
+          "car",
+          391,
+          310,
+          0
+        ],
+        [
+          "pencil",
+          455,
+          620,
+          0
+        ]
+      ]
+    },
+    {
+      "seed": 222,
+      "verified": true,
+      "positionsHash": "9d912ab3465d",
+      "edges": 105,
+      "layers": 4,
+      "first": [
+        [
+          "bear",
+          384,
+          273,
+          0
+        ],
+        [
+          "ruler",
+          531,
+          317,
+          0
+        ],
+        [
+          "eraser",
+          328,
+          619,
+          0
+        ]
+      ]
+    },
+    {
+      "seed": 333,
+      "verified": true,
+      "positionsHash": "4593d674b078",
+      "edges": 114,
+      "layers": 4,
+      "first": [
+        [
+          "clock",
+          472,
+          515,
+          0
+        ],
+        [
+          "pudding",
+          122,
+          425,
+          0
+        ],
+        [
+          "cup",
+          171,
+          298,
+          0
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "totalRuns": 200,
+    "verified": 200,
+    "failed": 0
+  }
+}

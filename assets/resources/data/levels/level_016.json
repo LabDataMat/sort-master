@@ -1,0 +1,17 @@
+{
+ "levelId": 16,
+ "name": "第 16 关",
+ "difficulty": 4,
+ "difficultyLabel": "复杂堆叠",
+ "itemCount": 99,
+ "typeCount": 11,
+ "layerCount": 6,
+ "frozenCount": 4,
+ "lockedCount": 1,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 254,
+  "minDist": 36,
+  "spill": 0.09
+ }
+}

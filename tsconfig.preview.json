@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "bundler",
+    "outDir": "playable-preview/build",
+    "rootDir": ".",
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM"]
+  },
+  "include": [
+    "assets/scripts/core/**/*.ts",
+    "assets/scripts/utils/**/*.ts",
+    "assets/scripts/gameplay/logic/**/*.ts",
+    "assets/scripts/level/**/*.ts",
+    "assets/scripts/items/**/*.ts",
+    "assets/scripts/collection/**/*.ts",
+    "assets/scripts/systems/progress/**/*.ts",
+    "assets/scripts/systems/save/**/*.ts",
+    "assets/scripts/systems/economy/**/*.ts",
+    "assets/scripts/systems/stats/**/*.ts",
+    "assets/scripts/ads/**/*.ts",
+    "assets/scripts/platform/**/*.ts",
+    "playable-preview/src/**/*.ts"
+  ]
+}

@@ -1,0 +1,41 @@
+/** 物品目录（纯逻辑）：30 种物品，统一分类。纹理路径对应 resources/textures/items/<id>.png */
+export interface ItemDef {
+  id: string;
+  name: string;
+  category: 'fruit' | 'dessert' | 'toy' | 'household' | 'stationery';
+}
+
+export const ITEM_CATALOG: ItemDef[] = [
+  { id: 'apple', name: '苹果', category: 'fruit' },
+  { id: 'banana', name: '香蕉', category: 'fruit' },
+  { id: 'strawberry', name: '草莓', category: 'fruit' },
+  { id: 'grape', name: '葡萄', category: 'fruit' },
+  { id: 'orange', name: '橙子', category: 'fruit' },
+  { id: 'cherry', name: '樱桃', category: 'fruit' },
+  { id: 'cake', name: '蛋糕', category: 'dessert' },
+  { id: 'donut', name: '甜甜圈', category: 'dessert' },
+  { id: 'cookie', name: '曲奇', category: 'dessert' },
+  { id: 'icecream', name: '冰淇淋', category: 'dessert' },
+  { id: 'macaron', name: '马卡龙', category: 'dessert' },
+  { id: 'pudding', name: '布丁', category: 'dessert' },
+  { id: 'bear', name: '小熊', category: 'toy' },
+  { id: 'blocks', name: '积木', category: 'toy' },
+  { id: 'duck', name: '鸭子', category: 'toy' },
+  { id: 'car', name: '汽车', category: 'toy' },
+  { id: 'ball', name: '皮球', category: 'toy' },
+  { id: 'robot', name: '机器人', category: 'toy' },
+  { id: 'cup', name: '水杯', category: 'household' },
+  { id: 'clock', name: '闹钟', category: 'household' },
+  { id: 'headphones', name: '耳机', category: 'household' },
+  { id: 'toothbrush', name: '牙刷', category: 'household' },
+  { id: 'soap', name: '香皂', category: 'household' },
+  { id: 'key', name: '钥匙', category: 'household' },
+  { id: 'pencil', name: '铅笔', category: 'stationery' },
+  { id: 'book', name: '书本', category: 'stationery' },
+  { id: 'eraser', name: '橡皮', category: 'stationery' },
+  { id: 'scissors', name: '剪刀', category: 'stationery' },
+  { id: 'ruler', name: '尺子', category: 'stationery' },
+  { id: 'penholder', name: '笔筒', category: 'stationery' },
+];
+
+export const ALL_TYPE_IDS = ITEM_CATALOG.map((i) => i.id);

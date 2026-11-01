@@ -1,0 +1,17 @@
+{
+ "levelId": 10,
+ "name": "第 10 关",
+ "difficulty": 4,
+ "difficultyLabel": "高压堆叠",
+ "itemCount": 90,
+ "typeCount": 10,
+ "layerCount": 6,
+ "frozenCount": 3,
+ "lockedCount": 1,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 250,
+  "minDist": 38,
+  "spill": 0.1
+ }
+}
