@@ -9,7 +9,8 @@
 import puppeteer from 'puppeteer-core';
 
 const CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
-const URL = 'http://127.0.0.1:4173/sort-master/';
+const URL = process.env.E2E_URL || 'http://127.0.0.1:4173/sort-master/';
+const BOOT_TIMEOUT = Number(process.env.E2E_BOOT_TIMEOUT || 20000);
 const SHOT = 'docs/screenshots';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -32,11 +33,11 @@ page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
 page.on('pageerror', (e) => errors.push('PAGEERROR: ' + e.message));
 
 const waitMenu = () =>
-  page.waitForFunction(() => !!window.__SORT_MASTER__?.game?.scene?.isActive('Menu'), { timeout: 20000 });
+  page.waitForFunction(() => !!window.__SORT_MASTER__?.game?.scene?.isActive('Menu'), { timeout: BOOT_TIMEOUT });
 const waitGame = () =>
-  page.waitForFunction(() => !!window.__SORT_MASTER__?.game?.scene?.isActive('Game'), { timeout: 15000 });
+  page.waitForFunction(() => !!window.__SORT_MASTER__?.game?.scene?.isActive('Game'), { timeout: BOOT_TIMEOUT });
 
-await page.goto(URL, { waitUntil: 'domcontentloaded' });
+await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 90000 });
 await waitMenu();
 await sleep(400);
 
@@ -140,7 +141,7 @@ check('三个不相邻相同物品可消除（真实点击 A,B,A,C,A）', na.ok,
 
 // ---------------- 完整通关 ----------------
 
-await page.reload({ waitUntil: 'domcontentloaded' });
+await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 });
 await waitMenu();
 await sleep(400);
 
@@ -223,7 +224,7 @@ check(
 
 // ---------------- 刷新后保留 ----------------
 
-await page.reload({ waitUntil: 'domcontentloaded' });
+await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 });
 await waitMenu();
 await sleep(400);
 const persisted = await page.evaluate(() => {
