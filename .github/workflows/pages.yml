@@ -1,5 +1,4 @@
-
-name: Deploy Sort Master Preview
+name: Deploy Sort Master (Phaser)
 
 on:
   push:
@@ -16,24 +15,48 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: phaser-game
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: phaser-game/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Preview
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: playable-preview
+          path: phaser-game/dist
 
-      - name: Deploy
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
