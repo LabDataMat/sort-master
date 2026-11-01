@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>{{{ PRODUCT_NAME }}}</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #1b1410; overflow: hidden;
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  #stage { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #unity-canvas { display: block; background: #1b1410; outline: none; }
+
+  #loading { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 16px;
+    background: radial-gradient(circle at 50% 35%, #3a2a20 0%, #1b1410 70%);
+    transition: opacity .45s ease; }
+  #loading.hide { opacity: 0; pointer-events: none; }
+
+  .logo { font-size: 44px; letter-spacing: 6px; color: #f7e6c8; font-weight: 700;
+    text-shadow: 0 4px 18px rgba(0,0,0,.55); }
+  .sub { font-size: 14px; letter-spacing: 8px; color: #c9a97f; }
+
+  .bar { width: min(320px, 70vw); height: 10px; border-radius: 6px;
+    background: rgba(255,255,255,.12); overflow: hidden; margin-top: 10px; }
+  #fill { height: 100%; width: 0%; border-radius: 6px;
+    background: linear-gradient(90deg, #f2a34a, #f7c96b); transition: width .15s linear; }
+  #pct { font-size: 14px; color: #e8d6bd; font-variant-numeric: tabular-nums; }
+
+  #error { display: none; text-align: center; color: #ffd9d3; max-width: 80vw; }
+  #error.show { display: block; }
+  #error p { margin: 0 0 14px; font-size: 15px; line-height: 1.6; }
+  #retry { padding: 10px 26px; border-radius: 999px; border: none; background: #f2a34a;
+    color: #2a1c13; font-size: 15px; font-weight: 600; cursor: pointer; }
+  #retry:active { transform: scale(.97); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="unity-canvas" width={{{ WIDTH }}} height={{{ HEIGHT }}} tabindex="-1"></canvas>
+</div>
+
+<div id="loading">
+  <div class="logo">收纳大作战</div>
+  <div class="sub">SORT MASTER</div>
+  <div class="bar"><div id="fill"></div></div>
+  <div id="pct">0%</div>
+  <div id="error">
+    <p id="errmsg">加载失败，请检查网络后重试。</p>
+    <button id="retry">重试</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var canvas = document.getElementById('unity-canvas');
+  var loading = document.getElementById('loading');
+  var fill = document.getElementById('fill');
+  var pct = document.getElementById('pct');
+  var errorBox = document.getElementById('error');
+  var errMsg = document.getElementById('errmsg');
+
+  // 等比适配窗口，保持竖屏比例
+  function fit() {
+    var s = Math.min(window.innerWidth / {{{ WIDTH }}}, window.innerHeight / {{{ HEIGHT }}});
+    canvas.style.width = ({{{ WIDTH }}} * s) + 'px';
+    canvas.style.height = ({{{ HEIGHT }}} * s) + 'px';
+  }
+  window.addEventListener('resize', fit);
+  fit();
+
+  document.getElementById('retry').addEventListener('click', function () { location.reload(); });
+
+  function fail(message) {
+    errorBox.classList.add('show');
+    errMsg.textContent = '加载失败：' + message + '（请检查网络后重试）';
+  }
+
+  // 相对路径：兼容 GitHub Pages 的 /sort-master/ 子路径
+  var buildUrl = 'Build';
+  var loaderUrl = buildUrl + '/{{{ LOADER_FILENAME }}}';
+  var config = {
+    dataUrl: buildUrl + '/{{{ DATA_FILENAME }}}',
+    frameworkUrl: buildUrl + '/{{{ FRAMEWORK_FILENAME }}}',
+    codeUrl: buildUrl + '/{{{ CODE_FILENAME }}}',
+    streamingAssetsUrl: 'StreamingAssets',
+    companyName: '{{{ COMPANY_NAME }}}',
+    productName: '{{{ PRODUCT_NAME }}}',
+    productVersion: '{{{ PRODUCT_VERSION }}}',
+    showBanner: function (msg) { console.warn('[Unity] ' + msg); }
+  };
+
+  var script = document.createElement('script');
+  script.src = loaderUrl;
+  script.onerror = function () { fail('加载器脚本无法下载'); };
+  script.onload = function () {
+    if (typeof createUnityInstance !== 'function') { fail('加载器未正确初始化'); return; }
+
+    createUnityInstance(canvas, config, function (progress) {
+      var p = Math.round(progress * 100);
+      fill.style.width = p + '%';
+      pct.textContent = p + '%';
+    }).then(function () {
+      loading.classList.add('hide');
+      setTimeout(function () { loading.style.display = 'none'; }, 500);
+    }).catch(function (message) {
+      fail(message);
+    });
+  };
+  document.body.appendChild(script);
+})();
+</script>
+</body>
+</html>

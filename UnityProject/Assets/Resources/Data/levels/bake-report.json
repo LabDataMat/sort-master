@@ -1,0 +1,911 @@
+{
+  "summary": {
+    "levels": 100,
+    "totalItems": 12759,
+    "totalKB": 1721,
+    "minItems": 12,
+    "maxItems": 150
+  },
+  "report": [
+    {
+      "level": 1,
+      "items": 12,
+      "types": 3,
+      "layers": 2,
+      "seed": 7932,
+      "matches": 4,
+      "kb": 1.7
+    },
+    {
+      "level": 2,
+      "items": 45,
+      "types": 6,
+      "layers": 4,
+      "seed": 15851,
+      "matches": 15,
+      "kb": 6.2
+    },
+    {
+      "level": 3,
+      "items": 54,
+      "types": 7,
+      "layers": 5,
+      "seed": 23770,
+      "matches": 18,
+      "kb": 7.4
+    },
+    {
+      "level": 4,
+      "items": 66,
+      "types": 8,
+      "layers": 5,
+      "seed": 31689,
+      "matches": 22,
+      "kb": 9
+    },
+    {
+      "level": 5,
+      "items": 75,
+      "types": 9,
+      "layers": 5,
+      "seed": 39608,
+      "matches": 25,
+      "kb": 10.1
+    },
+    {
+      "level": 6,
+      "items": 78,
+      "types": 9,
+      "layers": 6,
+      "seed": 47527,
+      "matches": 26,
+      "kb": 10.6
+    },
+    {
+      "level": 7,
+      "items": 81,
+      "types": 9,
+      "layers": 5,
+      "seed": 55446,
+      "matches": 27,
+      "kb": 11
+    },
+    {
+      "level": 8,
+      "items": 84,
+      "types": 10,
+      "layers": 6,
+      "seed": 63365,
+      "matches": 28,
+      "kb": 11.4
+    },
+    {
+      "level": 9,
+      "items": 87,
+      "types": 10,
+      "layers": 5,
+      "seed": 71284,
+      "matches": 29,
+      "kb": 11.8
+    },
+    {
+      "level": 10,
+      "items": 90,
+      "types": 10,
+      "layers": 6,
+      "seed": 79203,
+      "matches": 30,
+      "kb": 12
+    },
+    {
+      "level": 11,
+      "items": 90,
+      "types": 10,
+      "layers": 6,
+      "seed": 87122,
+      "matches": 30,
+      "kb": 12.2
+    },
+    {
+      "level": 12,
+      "items": 93,
+      "types": 10,
+      "layers": 6,
+      "seed": 95041,
+      "matches": 31,
+      "kb": 12.7
+    },
+    {
+      "level": 13,
+      "items": 93,
+      "types": 10,
+      "layers": 6,
+      "seed": 102960,
+      "matches": 31,
+      "kb": 12.6
+    },
+    {
+      "level": 14,
+      "items": 96,
+      "types": 10,
+      "layers": 6,
+      "seed": 110879,
+      "matches": 32,
+      "kb": 12.9
+    },
+    {
+      "level": 15,
+      "items": 99,
+      "types": 11,
+      "layers": 6,
+      "seed": 118798,
+      "matches": 33,
+      "kb": 13.4
+    },
+    {
+      "level": 16,
+      "items": 99,
+      "types": 11,
+      "layers": 6,
+      "seed": 126717,
+      "matches": 33,
+      "kb": 13.4
+    },
+    {
+      "level": 17,
+      "items": 102,
+      "types": 11,
+      "layers": 6,
+      "seed": 134636,
+      "matches": 34,
+      "kb": 13.7
+    },
+    {
+      "level": 18,
+      "items": 105,
+      "types": 11,
+      "layers": 6,
+      "seed": 142555,
+      "matches": 35,
+      "kb": 14.1
+    },
+    {
+      "level": 19,
+      "items": 105,
+      "types": 12,
+      "layers": 6,
+      "seed": 150474,
+      "matches": 35,
+      "kb": 14.2
+    },
+    {
+      "level": 20,
+      "items": 108,
+      "types": 12,
+      "layers": 6,
+      "seed": 158393,
+      "matches": 36,
+      "kb": 14.5
+    },
+    {
+      "level": 21,
+      "items": 108,
+      "types": 10,
+      "layers": 7,
+      "seed": 166312,
+      "matches": 36,
+      "kb": 14.6
+    },
+    {
+      "level": 22,
+      "items": 108,
+      "types": 10,
+      "layers": 6,
+      "seed": 174231,
+      "matches": 36,
+      "kb": 14.5
+    },
+    {
+      "level": 23,
+      "items": 111,
+      "types": 10,
+      "layers": 6,
+      "seed": 182150,
+      "matches": 37,
+      "kb": 15
+    },
+    {
+      "level": 24,
+      "items": 111,
+      "types": 10,
+      "layers": 7,
+      "seed": 190069,
+      "matches": 37,
+      "kb": 15
+    },
+    {
+      "level": 25,
+      "items": 111,
+      "types": 10,
+      "layers": 6,
+      "seed": 197988,
+      "matches": 37,
+      "kb": 15
+    },
+    {
+      "level": 26,
+      "items": 114,
+      "types": 10,
+      "layers": 6,
+      "seed": 205907,
+      "matches": 38,
+      "kb": 15.4
+    },
+    {
+      "level": 27,
+      "items": 114,
+      "types": 10,
+      "layers": 7,
+      "seed": 213826,
+      "matches": 38,
+      "kb": 15.3
+    },
+    {
+      "level": 28,
+      "items": 114,
+      "types": 10,
+      "layers": 6,
+      "seed": 221745,
+      "matches": 38,
+      "kb": 15.5
+    },
+    {
+      "level": 29,
+      "items": 117,
+      "types": 10,
+      "layers": 6,
+      "seed": 229664,
+      "matches": 39,
+      "kb": 15.7
+    },
+    {
+      "level": 30,
+      "items": 117,
+      "types": 10,
+      "layers": 7,
+      "seed": 237583,
+      "matches": 39,
+      "kb": 15.7
+    },
+    {
+      "level": 31,
+      "items": 117,
+      "types": 10,
+      "layers": 6,
+      "seed": 245502,
+      "matches": 39,
+      "kb": 15.8
+    },
+    {
+      "level": 32,
+      "items": 120,
+      "types": 10,
+      "layers": 6,
+      "seed": 253421,
+      "matches": 40,
+      "kb": 16.2
+    },
+    {
+      "level": 33,
+      "items": 120,
+      "types": 10,
+      "layers": 7,
+      "seed": 261340,
+      "matches": 40,
+      "kb": 16.1
+    },
+    {
+      "level": 34,
+      "items": 120,
+      "types": 10,
+      "layers": 6,
+      "seed": 269259,
+      "matches": 40,
+      "kb": 16.2
+    },
+    {
+      "level": 35,
+      "items": 123,
+      "types": 10,
+      "layers": 6,
+      "seed": 277178,
+      "matches": 41,
+      "kb": 16.5
+    },
+    {
+      "level": 36,
+      "items": 123,
+      "types": 10,
+      "layers": 7,
+      "seed": 285097,
+      "matches": 41,
+      "kb": 16.5
+    },
+    {
+      "level": 37,
+      "items": 123,
+      "types": 10,
+      "layers": 6,
+      "seed": 293016,
+      "matches": 41,
+      "kb": 16.7
+    },
+    {
+      "level": 38,
+      "items": 126,
+      "types": 10,
+      "layers": 6,
+      "seed": 300935,
+      "matches": 42,
+      "kb": 17
+    },
+    {
+      "level": 39,
+      "items": 126,
+      "types": 10,
+      "layers": 7,
+      "seed": 308854,
+      "matches": 42,
+      "kb": 16.9
+    },
+    {
+      "level": 40,
+      "items": 126,
+      "types": 10,
+      "layers": 6,
+      "seed": 316773,
+      "matches": 42,
+      "kb": 16.9
+    },
+    {
+      "level": 41,
+      "items": 129,
+      "types": 11,
+      "layers": 6,
+      "seed": 324692,
+      "matches": 43,
+      "kb": 17.5
+    },
+    {
+      "level": 42,
+      "items": 129,
+      "types": 11,
+      "layers": 7,
+      "seed": 332611,
+      "matches": 43,
+      "kb": 17.4
+    },
+    {
+      "level": 43,
+      "items": 129,
+      "types": 11,
+      "layers": 6,
+      "seed": 340530,
+      "matches": 43,
+      "kb": 17.4
+    },
+    {
+      "level": 44,
+      "items": 132,
+      "types": 11,
+      "layers": 6,
+      "seed": 348449,
+      "matches": 44,
+      "kb": 17.8
+    },
+    {
+      "level": 45,
+      "items": 132,
+      "types": 11,
+      "layers": 7,
+      "seed": 356368,
+      "matches": 44,
+      "kb": 17.8
+    },
+    {
+      "level": 46,
+      "items": 132,
+      "types": 11,
+      "layers": 6,
+      "seed": 364287,
+      "matches": 44,
+      "kb": 17.8
+    },
+    {
+      "level": 47,
+      "items": 135,
+      "types": 11,
+      "layers": 6,
+      "seed": 372206,
+      "matches": 45,
+      "kb": 18.2
+    },
+    {
+      "level": 48,
+      "items": 135,
+      "types": 11,
+      "layers": 7,
+      "seed": 380125,
+      "matches": 45,
+      "kb": 18.3
+    },
+    {
+      "level": 49,
+      "items": 135,
+      "types": 11,
+      "layers": 6,
+      "seed": 388044,
+      "matches": 45,
+      "kb": 18.1
+    },
+    {
+      "level": 50,
+      "items": 138,
+      "types": 11,
+      "layers": 6,
+      "seed": 395963,
+      "matches": 46,
+      "kb": 18.5
+    },
+    {
+      "level": 51,
+      "items": 138,
+      "types": 11,
+      "layers": 7,
+      "seed": 403882,
+      "matches": 46,
+      "kb": 18.6
+    },
+    {
+      "level": 52,
+      "items": 138,
+      "types": 11,
+      "layers": 6,
+      "seed": 411801,
+      "matches": 46,
+      "kb": 18.6
+    },
+    {
+      "level": 53,
+      "items": 141,
+      "types": 11,
+      "layers": 6,
+      "seed": 419720,
+      "matches": 47,
+      "kb": 19
+    },
+    {
+      "level": 54,
+      "items": 141,
+      "types": 11,
+      "layers": 7,
+      "seed": 427639,
+      "matches": 47,
+      "kb": 19
+    },
+    {
+      "level": 55,
+      "items": 141,
+      "types": 11,
+      "layers": 6,
+      "seed": 435558,
+      "matches": 47,
+      "kb": 19.1
+    },
+    {
+      "level": 56,
+      "items": 144,
+      "types": 11,
+      "layers": 6,
+      "seed": 443477,
+      "matches": 48,
+      "kb": 19.4
+    },
+    {
+      "level": 57,
+      "items": 144,
+      "types": 11,
+      "layers": 7,
+      "seed": 451396,
+      "matches": 48,
+      "kb": 19.4
+    },
+    {
+      "level": 58,
+      "items": 144,
+      "types": 11,
+      "layers": 6,
+      "seed": 459315,
+      "matches": 48,
+      "kb": 19.3
+    },
+    {
+      "level": 59,
+      "items": 147,
+      "types": 11,
+      "layers": 6,
+      "seed": 467234,
+      "matches": 49,
+      "kb": 19.9
+    },
+    {
+      "level": 60,
+      "items": 147,
+      "types": 11,
+      "layers": 7,
+      "seed": 475153,
+      "matches": 49,
+      "kb": 19.8
+    },
+    {
+      "level": 61,
+      "items": 147,
+      "types": 12,
+      "layers": 6,
+      "seed": 483072,
+      "matches": 49,
+      "kb": 19.7
+    },
+    {
+      "level": 62,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 490991,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 63,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 498910,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 64,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 506829,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 65,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 514748,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 66,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 522667,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 67,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 530586,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 68,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 538505,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 69,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 546424,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 70,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 554343,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 71,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 562262,
+      "matches": 50,
+      "kb": 20.1
+    },
+    {
+      "level": 72,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 570181,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 73,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 578100,
+      "matches": 50,
+      "kb": 20.1
+    },
+    {
+      "level": 74,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 586019,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 75,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 593938,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 76,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 601857,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 77,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 609776,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 78,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 617695,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 79,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 625614,
+      "matches": 50,
+      "kb": 20.1
+    },
+    {
+      "level": 80,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 633533,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 81,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 641452,
+      "matches": 50,
+      "kb": 20.4
+    },
+    {
+      "level": 82,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 649371,
+      "matches": 50,
+      "kb": 20.4
+    },
+    {
+      "level": 83,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 657290,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 84,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 665209,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 85,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 673128,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 86,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 681047,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 87,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 688966,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 88,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 696885,
+      "matches": 50,
+      "kb": 20.4
+    },
+    {
+      "level": 89,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 704804,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 90,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 712723,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 91,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 720642,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 92,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 728561,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 93,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 736480,
+      "matches": 50,
+      "kb": 20.4
+    },
+    {
+      "level": 94,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 744399,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 95,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 752318,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 96,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 760237,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 97,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 768156,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 98,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 776075,
+      "matches": 50,
+      "kb": 20.3
+    },
+    {
+      "level": 99,
+      "items": 150,
+      "types": 12,
+      "layers": 7,
+      "seed": 783994,
+      "matches": 50,
+      "kb": 20.2
+    },
+    {
+      "level": 100,
+      "items": 150,
+      "types": 12,
+      "layers": 6,
+      "seed": 791913,
+      "matches": 50,
+      "kb": 20.2
+    }
+  ]
+}

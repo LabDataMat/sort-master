@@ -1,0 +1,18 @@
+{
+    "name": "SortMaster.Editor",
+    "rootNamespace": "SortMaster.EditorTools",
+    "references": [
+        "SortMaster.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

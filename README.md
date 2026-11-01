@@ -2,6 +2,9 @@
 
 高品质 2D 休闲消除 + 高难度闯关 + 收藏品收集，基于 **Cocos Creator 3.8.x + TypeScript**，目标平台微信小游戏。
 
+> **Unity 2D 重制版**：见 [`UnityProject/`](UnityProject/README.md)，交付状态与未完成项见 [`docs/UNITY_DELIVERY.md`](docs/UNITY_DELIVERY.md)。
+> 当前本机未安装 Unity，Unity 版尚未编译与构建；线上仍为下方 Web/Cocos 版本。
+
 **核心循环**：挑战关卡 → 通关开宝箱 → 获得收藏品 → 完成系列 → 解锁主题 → 挑战更高难度。
 
 ![首页](docs/screenshots/visual_home.png)

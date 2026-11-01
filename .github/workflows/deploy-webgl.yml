@@ -1,0 +1,50 @@
+name: Deploy Unity WebGL
+
+# 说明：
+# 当前仅支持手动触发，避免在尚未完成本地验证时覆盖线上可用的旧版本。
+# 本地验证通过后，取消下面 push 触发器的注释即可自动部署。
+on:
+  workflow_dispatch:
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'WebGLBuild/**'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify WebGL build exists
+        run: |
+          if [ ! -f WebGLBuild/index.html ]; then
+            echo "::error::WebGLBuild/index.html 不存在。请先在 Unity 中执行 Sort Master → Build WebGL，并提交构建产物后再部署。"
+            exit 1
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload WebGL artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: WebGLBuild
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
