@@ -27,7 +27,7 @@ const specCache = new Map<number, LevelSpec>();
 async function loadSpec(id: number): Promise<LevelSpec | null> {
   if (specCache.has(id)) return specCache.get(id)!;
   try {
-    const res = await fetch(`../assets/resources/data/levels/level_${String(id).padStart(3, '0')}.json`);
+    const res = await fetch(`./assets/resources/data/levels/level_${String(id).padStart(3, '0')}.json`);
     const spec = (await res.json()) as LevelSpec;
     specCache.set(id, spec);
     return spec;

@@ -11,11 +11,11 @@ html, body { width: 100%; height: 100%; overflow: hidden; background: #2E2A24; f
 /* 通用按钮 */
 .btn { border: none; cursor: pointer; font-family: inherit; font-weight: bold; color: #fff;
   border-radius: 44px; padding: 0 34px; height: 88px; font-size: 30px;
-  background: url('../assets/resources/textures/ui/btn_primary.png') center/100% 100% no-repeat;
+  background: url('./assets/resources/textures/ui/btn_primary.png') center/100% 100% no-repeat;
   text-shadow: 0 2px 0 rgba(120,50,10,0.35); box-shadow: 0 10px 18px rgba(90,50,10,0.22);
   transition: transform 0.07s, filter 0.07s; }
-.btn.primary { background-image: url('../assets/resources/textures/ui/btn_primary.png'); }
-.btn.ghost { background-image: url('../assets/resources/textures/ui/btn_secondary.png'); text-shadow: 0 2px 0 rgba(40,70,30,0.35); }
+.btn.primary { background-image: url('./assets/resources/textures/ui/btn_primary.png'); }
+.btn.ghost { background-image: url('./assets/resources/textures/ui/btn_secondary.png'); text-shadow: 0 2px 0 rgba(40,70,30,0.35); }
 .btn.small { height: 64px; font-size: 24px; padding: 0 24px; border-radius: 32px; }
 .btn.big { width: 420px; height: 128px; font-size: 44px; }
 .btn:active:not(:disabled) { transform: translateY(3px) scale(0.985); filter: brightness(0.94); }
@@ -96,14 +96,14 @@ html, body { width: 100%; height: 100%; overflow: hidden; background: #2E2A24; f
 .game-level { position: relative; width: 176px; height: 104px; display: flex; flex-direction: column;
   align-items: center; justify-content: center; font-weight: bold; font-size: 28px; color: #fff;
   text-shadow: 0 2px 0 rgba(140,70,20,0.45);
-  background: url('../assets/resources/textures/ui/level_badge.png') center/100% 100% no-repeat; }
+  background: url('./assets/resources/textures/ui/level_badge.png') center/100% 100% no-repeat; }
 .game-level span { font-size: 16px; color: #FFF0D0; font-weight: normal; text-shadow: none; margin-top: 2px; }
 .top-wallet { display: flex; gap: 8px; }
 .top-wallet .pill { padding: 2px 14px 2px 6px; font-size: 22px; border-width: 2px; }
 .top-wallet .pill img { width: 32px; height: 32px; }
 
 .board { position: absolute; top: 96px; left: 8px; width: 734px; height: 920px; border-radius: 34px;
-  background: url('../assets/resources/textures/ui/table.png') center/100% 100% no-repeat;
+  background: url('./assets/resources/textures/ui/table.png') center/100% 100% no-repeat;
   box-shadow: inset 0 6px 22px rgba(120,90,40,0.22), inset 0 -10px 26px rgba(120,90,40,0.14),
     0 14px 30px rgba(90,60,20,0.18); overflow: hidden; }
 .board::after { content: ''; position: absolute; inset: 0; border-radius: 34px; pointer-events: none;
@@ -122,7 +122,7 @@ html, body { width: 100%; height: 100%; overflow: hidden; background: #2E2A24; f
 .tile.frozen::after, .tile.locked::after { content: ''; position: absolute; inset: 6px; border-radius: 18px; }
 .tile.frozen::after { background: linear-gradient(135deg, rgba(191,232,245,0.88), rgba(126,196,220,0.7)); border: 3px solid #7EC4DC; }
 .tile.locked::before { content: ''; position: absolute; inset: 0; z-index: 2;
-  background: url('../assets/resources/textures/ui/lock_overlay.png') center/56px no-repeat; }
+  background: url('./assets/resources/textures/ui/lock_overlay.png') center/56px no-repeat; }
 .tile.flying { transition: left 0.24s ease-in, top 0.24s ease-in, transform 0.24s; z-index: 50; transform: scale(0.9); }
 .tile.clearing { transition: transform 0.28s, opacity 0.28s; transform: scale(0); opacity: 0; }
 
@@ -143,7 +143,7 @@ html, body { width: 100%; height: 100%; overflow: hidden; background: #2E2A24; f
 .booster.empty { opacity: 0.55; filter: grayscale(0.5); }
 
 .tray { position: absolute; bottom: 52px; left: 20px; width: 710px; height: 136px;
-  background: url('../assets/resources/textures/ui/tray.png') center/100% 100% no-repeat;
+  background: url('./assets/resources/textures/ui/tray.png') center/100% 100% no-repeat;
   display: flex; align-items: center; justify-content: center; gap: 6px;
   filter: drop-shadow(0 10px 18px rgba(90,60,20,0.22)); }
 .tray.flash { animation: trayFlash 0.42s; }
@@ -157,7 +157,7 @@ html, body { width: 100%; height: 100%; overflow: hidden; background: #2E2A24; f
 @keyframes tightpulse { 0%,100% { box-shadow: inset 0 4px 10px rgba(120,90,40,0.18), 0 0 0 0 rgba(232,112,95,0.55); }
   50% { box-shadow: inset 0 4px 10px rgba(120,90,40,0.18), 0 0 0 10px rgba(232,112,95,0); } }
 .slot { width: 86px; height: 86px; border-radius: 18px; position: relative;
-  background: url('../assets/resources/textures/ui/slot_cell.png') center/100% 100% no-repeat;
+  background: url('./assets/resources/textures/ui/slot_cell.png') center/100% 100% no-repeat;
   display: flex; align-items: center; justify-content: center; }
 .slot img { width: 74px; height: 74px; filter: drop-shadow(0 4px 3px rgba(60,40,20,0.4)); position: relative; z-index: 2; }
 .slot img.landed { animation: slotLand 0.3s cubic-bezier(.2,1.8,.4,1); }

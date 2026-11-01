@@ -1,0 +1,17 @@
+{
+ "levelId": 1,
+ "name": "第 1 关",
+ "difficulty": 1,
+ "difficultyLabel": "新手教学",
+ "itemCount": 12,
+ "typeCount": 3,
+ "layerCount": 2,
+ "frozenCount": 0,
+ "lockedCount": 0,
+ "boosterLimit": 0,
+ "gen": {
+  "radius": 150,
+  "minDist": 58,
+  "spill": 0.06
+ }
+}

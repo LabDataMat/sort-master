@@ -1,0 +1,909 @@
+{
+  "totalLevels": 100,
+  "mode": "runtime_generated",
+  "matchRule": "consecutive_triple",
+  "note": "关卡文件仅保存参数；布局在进入关卡时按种子实时生成，并做构造式可解性回放验证",
+  "generatedAt": "2026-10-31T12:57:24.976Z",
+  "tiers": [
+    {
+      "levelId": 1,
+      "itemCount": 12,
+      "typeCount": 3,
+      "layerCount": 2,
+      "frozenCount": 0,
+      "lockedCount": 0,
+      "boosterLimit": 0
+    },
+    {
+      "levelId": 2,
+      "itemCount": 45,
+      "typeCount": 6,
+      "layerCount": 4,
+      "frozenCount": 0,
+      "lockedCount": 0,
+      "boosterLimit": 0
+    },
+    {
+      "levelId": 3,
+      "itemCount": 54,
+      "typeCount": 7,
+      "layerCount": 5,
+      "frozenCount": 0,
+      "lockedCount": 0,
+      "boosterLimit": 0
+    },
+    {
+      "levelId": 4,
+      "itemCount": 66,
+      "typeCount": 8,
+      "layerCount": 5,
+      "frozenCount": 0,
+      "lockedCount": 0,
+      "boosterLimit": 0
+    },
+    {
+      "levelId": 5,
+      "itemCount": 75,
+      "typeCount": 9,
+      "layerCount": 5,
+      "frozenCount": 2,
+      "lockedCount": 0,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 6,
+      "itemCount": 78,
+      "typeCount": 9,
+      "layerCount": 6,
+      "frozenCount": 2,
+      "lockedCount": 0,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 7,
+      "itemCount": 81,
+      "typeCount": 9,
+      "layerCount": 5,
+      "frozenCount": 3,
+      "lockedCount": 0,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 8,
+      "itemCount": 84,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 9,
+      "itemCount": 87,
+      "typeCount": 10,
+      "layerCount": 5,
+      "frozenCount": 2,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 10,
+      "itemCount": 90,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 3,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 11,
+      "itemCount": 90,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 3,
+      "lockedCount": 2,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 12,
+      "itemCount": 93,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 13,
+      "itemCount": 93,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 14,
+      "itemCount": 96,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 15,
+      "itemCount": 99,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 3,
+      "lockedCount": 2,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 16,
+      "itemCount": 99,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 17,
+      "itemCount": 102,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 18,
+      "itemCount": 105,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 19,
+      "itemCount": 105,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 3,
+      "lockedCount": 2,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 20,
+      "itemCount": 108,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 1,
+      "boosterLimit": 3
+    },
+    {
+      "levelId": 21,
+      "itemCount": 108,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 22,
+      "itemCount": 108,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 23,
+      "itemCount": 111,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 24,
+      "itemCount": 111,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 25,
+      "itemCount": 111,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 26,
+      "itemCount": 114,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 27,
+      "itemCount": 114,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 28,
+      "itemCount": 114,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 29,
+      "itemCount": 117,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 30,
+      "itemCount": 117,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 31,
+      "itemCount": 117,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 32,
+      "itemCount": 120,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 33,
+      "itemCount": 120,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 34,
+      "itemCount": 120,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 35,
+      "itemCount": 123,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 36,
+      "itemCount": 123,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 37,
+      "itemCount": 123,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 38,
+      "itemCount": 126,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 39,
+      "itemCount": 126,
+      "typeCount": 10,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 40,
+      "itemCount": 126,
+      "typeCount": 10,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 41,
+      "itemCount": 129,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 42,
+      "itemCount": 129,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 43,
+      "itemCount": 129,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 44,
+      "itemCount": 132,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 45,
+      "itemCount": 132,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 46,
+      "itemCount": 132,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 47,
+      "itemCount": 135,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 48,
+      "itemCount": 135,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 49,
+      "itemCount": 135,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 50,
+      "itemCount": 138,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 51,
+      "itemCount": 138,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 52,
+      "itemCount": 138,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 53,
+      "itemCount": 141,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 54,
+      "itemCount": 141,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 55,
+      "itemCount": 141,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 56,
+      "itemCount": 144,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 57,
+      "itemCount": 144,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 58,
+      "itemCount": 144,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 59,
+      "itemCount": 147,
+      "typeCount": 11,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 60,
+      "itemCount": 147,
+      "typeCount": 11,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 61,
+      "itemCount": 147,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 62,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 63,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 64,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 65,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 66,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 67,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 68,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 69,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 70,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 71,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 72,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 73,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 74,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 75,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 76,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 77,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 78,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 79,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 80,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 81,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 82,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 83,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 84,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 85,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 86,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 87,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 88,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 89,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 90,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 5,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 91,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 92,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 93,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 4,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 94,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 95,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 6,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 96,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 7,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 97,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 4,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 98,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 5,
+      "lockedCount": 4,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 99,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 7,
+      "frozenCount": 6,
+      "lockedCount": 2,
+      "boosterLimit": 2
+    },
+    {
+      "levelId": 100,
+      "itemCount": 150,
+      "typeCount": 12,
+      "layerCount": 6,
+      "frozenCount": 7,
+      "lockedCount": 3,
+      "boosterLimit": 2
+    }
+  ]
+}

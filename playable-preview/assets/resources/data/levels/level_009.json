@@ -1,0 +1,17 @@
+{
+ "levelId": 9,
+ "name": "第 9 关",
+ "difficulty": 4,
+ "difficultyLabel": "高压堆叠",
+ "itemCount": 87,
+ "typeCount": 10,
+ "layerCount": 5,
+ "frozenCount": 2,
+ "lockedCount": 1,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 250,
+  "minDist": 38,
+  "spill": 0.1
+ }
+}

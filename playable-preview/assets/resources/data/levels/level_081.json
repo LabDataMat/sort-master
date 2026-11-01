@@ -1,0 +1,17 @@
+{
+ "levelId": 81,
+ "name": "第 81 关",
+ "difficulty": 5,
+ "difficultyLabel": "高难关卡",
+ "itemCount": 150,
+ "typeCount": 12,
+ "layerCount": 7,
+ "frozenCount": 4,
+ "lockedCount": 2,
+ "boosterLimit": 2,
+ "gen": {
+  "radius": 258,
+  "minDist": 34,
+  "spill": 0.08
+ }
+}

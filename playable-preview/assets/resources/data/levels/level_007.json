@@ -1,0 +1,17 @@
+{
+ "levelId": 7,
+ "name": "第 7 关",
+ "difficulty": 4,
+ "difficultyLabel": "高压堆叠",
+ "itemCount": 81,
+ "typeCount": 9,
+ "layerCount": 5,
+ "frozenCount": 3,
+ "lockedCount": 0,
+ "boosterLimit": 3,
+ "gen": {
+  "radius": 250,
+  "minDist": 38,
+  "spill": 0.1
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "levelId": 2,
+ "name": "第 2 关",
+ "difficulty": 2,
+ "difficultyLabel": "交错物品堆",
+ "itemCount": 45,
+ "typeCount": 6,
+ "layerCount": 4,
+ "frozenCount": 0,
+ "lockedCount": 0,
+ "boosterLimit": 0,
+ "gen": {
+  "radius": 236,
+  "minDist": 46,
+  "spill": 0.1
+ }
+}

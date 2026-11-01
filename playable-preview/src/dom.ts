@@ -27,7 +27,7 @@ export function closeModal(m: HTMLElement) {
 }
 
 export const ASSET = {
-  collect: (id: string) => `../assets/resources/textures/collect/${id}.png`,
-  item: (id: string) => `../assets/resources/textures/items/${id}.png`,
-  ui: (id: string) => `../assets/resources/textures/ui/${id}.png`,
+  collect: (id: string) => `./assets/resources/textures/collect/${id}.png`,
+  item: (id: string) => `./assets/resources/textures/items/${id}.png`,
+  ui: (id: string) => `./assets/resources/textures/ui/${id}.png`,
 };

@@ -36,9 +36,9 @@ var ASSET;
 var init_dom = __esm({
   "playable-preview/src/dom.ts"() {
     ASSET = {
-      collect: (id) => `../assets/resources/textures/collect/${id}.png`,
-      item: (id) => `../assets/resources/textures/items/${id}.png`,
-      ui: (id) => `../assets/resources/textures/ui/${id}.png`
+      collect: (id) => `./assets/resources/textures/collect/${id}.png`,
+      item: (id) => `./assets/resources/textures/items/${id}.png`,
+      ui: (id) => `./assets/resources/textures/ui/${id}.png`
     };
   }
 });
@@ -2724,7 +2724,7 @@ var specCache = /* @__PURE__ */ new Map();
 async function loadSpec(id) {
   if (specCache.has(id)) return specCache.get(id);
   try {
-    const res = await fetch(`../assets/resources/data/levels/level_${String(id).padStart(3, "0")}.json`);
+    const res = await fetch(`./assets/resources/data/levels/level_${String(id).padStart(3, "0")}.json`);
     const spec = await res.json();
     specCache.set(id, spec);
     return spec;
