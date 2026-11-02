@@ -52,6 +52,7 @@ export const UI_NAMES = [
   'icon_star', 'icon_undo', 'icon_shuffle', 'lock_overlay', 'logo',
   'panel', 'particle_circle', 'particle_star', 'slot_cell', 'table', 'tray',
   'shadow_soft', 'frost_overlay', 'level_badge', 'icon_settings',
+  'icon_book', 'icon_daily', 'icon_theme', 'icon_fragment',
 ] as const;
 
 /** 音频（2 BGM + 9 SFX） */
@@ -59,3 +60,8 @@ export const AUDIO_NAMES = [
   'bgm_home', 'bgm_game',
   'click', 'match', 'combo', 'move', 'win', 'lose', 'coin', 'booster', 'unlock',
 ] as const;
+
+/** 收藏品图片（4 系列 × 12 件） */
+export const COLLECT_FILES: string[] = ['dessert', 'fruit', 'house', 'pet'].flatMap((prefix) =>
+  Array.from({ length: 12 }, (_, i) => `${prefix}_${String(i + 1).padStart(2, '0')}`),
+);

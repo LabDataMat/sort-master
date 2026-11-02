@@ -13,6 +13,7 @@ const VIEW_H = 1110;
 /** 关卡选择：100 关网格，支持滚轮 / 拖拽滚动、解锁与通关标记。 */
 export class LevelSelectScene extends Phaser.Scene {
   private content!: Phaser.GameObjects.Container;
+  private readonly cells = new Map<number, Phaser.GameObjects.Container>();
   private minY = 0;
   private dragging = false;
   private moved = false;
@@ -56,6 +57,7 @@ export class LevelSelectScene extends Phaser.Scene {
 
     this.buildGrid();
     this.setupScroll();
+    void this.loadBadges();
 
     playBgm(this, 'audio_bgm_home');
   }
@@ -118,7 +120,7 @@ export class LevelSelectScene extends Phaser.Scene {
     }
 
     const num = this.add
-      .text(0, unlocked ? 6 : -6, String(id), {
+      .text(0, -18, String(id), {
         fontFamily: FONT,
         fontSize: '46px',
         color: unlocked ? '#523625' : '#a89c8d',
@@ -134,8 +136,9 @@ export class LevelSelectScene extends Phaser.Scene {
     }
 
     if (!unlocked) {
-      const lock = this.add.image(0, 34, 'ui_lock_overlay').setDisplaySize(46, 46).setAlpha(0.9);
+      const lock = this.add.image(0, 12, 'ui_lock_overlay').setDisplaySize(42, 42).setAlpha(0.9);
       cell.add(lock);
+      this.cells.set(id, cell);
       return cell;
     }
 
@@ -149,7 +152,42 @@ export class LevelSelectScene extends Phaser.Scene {
       this.scene.start('Game', { levelId: id });
     });
 
+    this.cells.set(id, cell);
     return cell;
+  }
+
+  /** 异步加载轻量索引，为每个格子追加难度标识 */
+  private async loadBadges(): Promise<void> {
+    try {
+      const res = await fetch(`${import.meta.env.BASE_URL}levels/index.json`);
+      if (!res.ok) return;
+      const index = (await res.json()) as { id: number; tier: string; score: number; special: boolean }[];
+
+      for (const item of index) {
+        const cell = this.cells.get(item.id);
+        if (!cell) continue;
+
+        const color =
+          item.tier === 'tutorial' ? 0x5cb473 : item.tier === 'challenge' ? 0xe35a52 : 0xf49c3f;
+
+        const g = this.add.graphics();
+        g.fillStyle(color, 1);
+        g.fillRoundedRect(-44, 40, 88, 28, 14);
+
+        const t = this.add
+          .text(0, 54, item.score.toFixed(1), {
+            fontFamily: FONT,
+            fontSize: '17px',
+            color: '#ffffff',
+            fontStyle: 'bold',
+          })
+          .setOrigin(0.5);
+
+        cell.add([g, t]);
+      }
+    } catch {
+      /* 索引缺失时不影响关卡选择 */
+    }
   }
 
   private setupScroll(): void {

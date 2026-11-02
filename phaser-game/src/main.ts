@@ -4,6 +4,8 @@ import { BootScene } from './scenes/BootScene';
 import { MenuScene } from './scenes/MenuScene';
 import { LevelSelectScene } from './scenes/LevelSelectScene';
 import { GameScene } from './scenes/GameScene';
+import { CollectionScene } from './scenes/CollectionScene';
+import { ShopScene } from './scenes/ShopScene';
 import { H, W } from './theme';
 import { save } from './services';
 
@@ -25,7 +27,7 @@ const config: Phaser.Types.Core.GameConfig = {
   audio: {
     disableWebAudio: false,
   },
-  scene: [BootScene, MenuScene, LevelSelectScene, GameScene],
+  scene: [BootScene, MenuScene, LevelSelectScene, GameScene, CollectionScene, ShopScene],
 };
 
 const game = new Phaser.Game(config);

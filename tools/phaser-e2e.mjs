@@ -1,10 +1,13 @@
 /**
  * Phaser 版端到端验收（真实 Chrome + 真实点击）。
  *
- * 1. 菜单渲染与画布尺寸
- * 2. 专项：构造 A,B,A,C,A 的点击序列，验证「三个不相邻相同物品」消除
- * 3. 完整通关：按关卡解法逐击，验证遮挡、消除、胜利、存档
- * 4. 刷新后进度保留
+ * 覆盖：
+ *  1. 菜单 / 画布
+ *  2. 不相邻三消（A,B,A,C,A 真实点击）
+ *  3. 第 1 关：极简、快速通关、首通必得收藏品
+ *  4. 第 2 关：难度断层、失败可重试、可通关
+ *  5. 收藏图鉴：进度、锁定剪影
+ *  6. 刷新后金币 / 收藏 / 进度保留
  */
 import puppeteer from 'puppeteer-core';
 
@@ -23,7 +26,7 @@ const check = (name, cond, extra = '') => {
 const browser = await puppeteer.launch({
   executablePath: CHROME,
   headless: true,
-  args: ['--no-first-run', '--disable-gpu', '--user-data-dir=C:/Users/25370/AppData/Local/Temp/ep-phaser2'],
+  args: ['--no-first-run', '--disable-gpu', '--user-data-dir=C:/Users/25370/AppData/Local/Temp/ep-phaser3'],
   defaultViewport: { width: 500, height: 900, deviceScaleFactor: 2 },
 });
 
@@ -39,7 +42,11 @@ const waitGame = () =>
 
 await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 90000 });
 await waitMenu();
-await sleep(400);
+
+await page.evaluate(() => localStorage.clear());
+await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 });
+await waitMenu();
+await sleep(500);
 
 check('主菜单场景已激活', await page.evaluate(() => window.__SORT_MASTER__.game.scene.isActive('Menu')));
 await page.screenshot({ path: `${SHOT}/phaser_menu.png` });
@@ -55,15 +62,15 @@ const clickGame = async (gx, gy) => {
   await page.mouse.click(rect.left + (gx / 750) * rect.width, rect.top + (gy / 1334) * rect.height);
 };
 
-// ---------------- 专项：不相邻三消 ----------------
-
-async function readState() {
-  return page.evaluate(() => {
-    const s = window.__SORT_MASTER__.game.scene.getScene('Game').session;
+const readSession = () =>
+  page.evaluate(() => {
+    const s = window.__SORT_MASTER__.game.scene.getScene('Game');
+    const b = s.session.board;
     return {
-      slotTypes: s.slots.all.map((x) => x.itemId),
-      remaining: s.board.remaining,
-      clickable: s.board.clickable().map((t) => ({
+      levelId: s.levelId,
+      total: b.tiles.length,
+      remaining: b.remaining,
+      clickable: b.clickable().map((t) => ({
         id: t.instanceId,
         type: t.itemId,
         x: t.x,
@@ -71,170 +78,225 @@ async function readState() {
         w: t.w,
         h: t.h,
       })),
+      slotTypes: s.session.slots.all.map((x) => x.itemId),
+      state: s.session.state,
+      difficulty: s.level.difficultyScore ?? s.level.difficulty,
+      tier: s.level.tier,
+      slotCapacity: s.level.slotCapacity,
+      solution: s.level.solution,
+      tiles: b.tiles.map((t) => ({ id: t.instanceId, x: t.x, y: t.y, w: t.w, h: t.h, layer: t.layer })),
     };
   });
-}
 
-async function tryNonAdjacent() {
-  // 用调试钩子直接进入第 1 关（之后全部通过真实点击操作）
-  await page.evaluate(() => {
-    const menu = window.__SORT_MASTER__.game.scene.getScene('Menu');
-    menu.scene.start('Game', { levelId: 1 });
-  });
-  await waitGame();
-  await sleep(700);
+const readSave = () => page.evaluate(() => JSON.parse(localStorage.getItem('sort_master_phaser_v1') || 'null'));
 
-  for (let attempt = 0; attempt < 4; attempt++) {
-    if (attempt > 0) {
-      await page.evaluate(() => window.__SORT_MASTER__.game.scene.getScene('Game').scene.restart({ levelId: 1 }));
-      await sleep(700);
-    }
+const clickTile = async (t) => {
+  await clickGame(t.x + t.w / 2, 150 + t.y + t.h / 2);
+  await sleep(270);
+};
 
-    let typeA = null;
-    let patternOk = true;
-    const slotBeforeLast = [];
+// ---------------- 1. 不相邻三消 ----------------
 
-    // 目标序列：A, B, A, C, A → A 的三个位置为 0,2,4（不相邻）
-    for (let step = 0; step < 5; step++) {
-      const st = await readState();
-      if (step === 4) slotBeforeLast.push(...st.slotTypes);
+await page.evaluate(() => window.__SORT_MASTER__.game.scene.getScene('Menu').scene.start('Game', { levelId: 1 }));
+await waitGame();
+await sleep(700);
 
-      let choice = null;
-      if (step === 0) {
-        choice = st.clickable[0];
-        if (choice) typeA = choice.type;
-      } else if (step === 1) {
-        choice = st.clickable.find((t) => t.type !== typeA);
-      } else if (step === 2) {
-        choice = st.clickable.find((t) => t.type === typeA);
-      } else if (step === 3) {
-        choice = st.clickable.find((t) => t.type !== typeA);
-      } else {
-        choice = st.clickable.find((t) => t.type === typeA);
-      }
-
-      if (!choice) {
-        patternOk = false;
-        break;
-      }
-
-      await clickGame(choice.x + choice.w / 2, 150 + choice.y + choice.h / 2);
-      await sleep(300);
-    }
-
-    if (!patternOk) continue;
-
-    const after = await readState();
-    const remainingA = after.slotTypes.filter((t) => t === typeA).length;
-
-    // 构造序列中 A 位于 0,2,4，若已消除则剩余 A 必为 0
-    if (remainingA === 0) {
-      return { ok: true, typeA, slotBeforeLast, after: after.slotTypes };
-    }
+let nonAdjacentOk = false;
+let nonAdjacentDetail = '';
+for (let attempt = 0; attempt < 4 && !nonAdjacentOk; attempt++) {
+  if (attempt > 0) {
+    await page.evaluate(() => window.__SORT_MASTER__.game.scene.getScene('Game').scene.restart({ levelId: 1 }));
+    await sleep(700);
   }
 
-  return { ok: false };
+  let typeA = null;
+  const beforeLast = [];
+  let ok = true;
+
+  for (let step = 0; step < 5; step++) {
+    const st = await readSession();
+    if (step === 4) beforeLast.push(...st.slotTypes);
+
+    let choice = null;
+    if (step === 0) {
+      choice = st.clickable[0];
+      if (choice) typeA = choice.type;
+    } else if (step === 1) choice = st.clickable.find((t) => t.type !== typeA);
+    else if (step === 2) choice = st.clickable.find((t) => t.type === typeA);
+    else if (step === 3) choice = st.clickable.find((t) => t.type !== typeA);
+    else choice = st.clickable.find((t) => t.type === typeA);
+
+    if (!choice) {
+      ok = false;
+      break;
+    }
+    await clickTile(choice);
+  }
+
+  if (!ok) continue;
+  const after = await readSession();
+  if (after.slotTypes.filter((t) => t === typeA).length === 0) {
+    nonAdjacentOk = true;
+    nonAdjacentDetail = `type=${typeA} 槽内=${beforeLast.join(',')}`;
+  }
 }
 
-const na = await tryNonAdjacent();
-check('三个不相邻相同物品可消除（真实点击 A,B,A,C,A）', na.ok, na.ok ? `type=${na.typeA} 槽内序列=${na.slotBeforeLast.join(',')}` : '未构造成功');
+check('三个不相邻相同物品可消除（A,B,A,C,A）', nonAdjacentOk, nonAdjacentDetail);
 
-// ---------------- 完整通关 ----------------
+// ---------------- 2. 第 1 关 ----------------
 
-await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 });
-await waitMenu();
-await sleep(400);
+await page.evaluate(() => window.__SORT_MASTER__.game.scene.getScene('Game').scene.restart({ levelId: 1 }));
+await sleep(700);
 
-await clickGame(375, 748);
+const l1 = await readSession();
+check('第 1 关为极简教学', l1.total === 9 && l1.difficulty === 1, `${l1.total}件 难度${l1.difficulty}`);
+check('第 1 关全部物品可点（无遮挡）', l1.clickable.length === 9, `可点 ${l1.clickable.length}/9`);
+
+const l1Tiles = new Map(l1.tiles.map((t) => [t.id, t]));
+for (const id of l1.solution) {
+  const t = l1Tiles.get(id);
+  if (t) await clickTile(t);
+}
+await sleep(900);
+
+const l1State = await readSession();
+check('第 1 关可快速通关', l1State.state === 'victory' && l1State.remaining === 0, l1State.state);
+await page.screenshot({ path: `${SHOT}/phaser_l1_result.png` });
+
+const saveAfterL1 = await readSave();
+check(
+  '首通第 1 关获得第一件收藏品',
+  !!saveAfterL1 && saveAfterL1.collection.includes('food_01'),
+  JSON.stringify(saveAfterL1?.collection),
+);
+check('首通奖励金币已发放', !!saveAfterL1 && saveAfterL1.coins > 0, `coins=${saveAfterL1?.coins}`);
+
+// ---------------- 3. 第 2 关 ----------------
+
+await clickGame(375, 807); // 下一关
+await waitGame();
+await sleep(900);
+
+const l2 = await readSession();
+check('进入第 2 关', l2.levelId === 2, `L${l2.levelId}`);
+check(
+  '第 2 关明显更难（物品多 / 可点击稀少 / 难度≥8.5）',
+  l2.total >= 80 && l2.difficulty >= 8.5 && l2.clickable.length / l2.total <= 0.2,
+  `${l2.total}件 难度${l2.difficulty} 可点${l2.clickable.length}`,
+);
+await page.screenshot({ path: `${SHOT}/phaser_l2_board.png` });
+
+// 故意填满收纳槽且不触发三消 → 失败
+for (let i = 0; i < 7; i++) {
+  const st = await readSession();
+  if (st.state !== 'playing') break;
+  const counts = {};
+  for (const t of st.slotTypes) counts[t] = (counts[t] || 0) + 1;
+  const cand = st.clickable.find((t) => (counts[t.type] || 0) < 2);
+  if (!cand) break;
+  await clickTile(cand);
+}
+await sleep(900);
+
+const l2Lose = await readSession();
+check('收纳槽满且无匹配时判负', l2Lose.state === 'lose', l2Lose.state);
+await page.screenshot({ path: `${SHOT}/phaser_l2_lose.png` });
+
+await clickGame(375, 600); // 重新挑战
 await waitGame();
 await sleep(800);
+const l2Retry = await readSession();
+check(
+  '失败后可重新挑战（棋盘重置）',
+  l2Retry.levelId === 2 && l2Retry.remaining === l2Retry.total,
+  `${l2Retry.remaining}/${l2Retry.total}`,
+);
 
-const info = await page.evaluate(() => {
-  const s = window.__SORT_MASTER__.game.scene.getScene('Game');
-  return {
-    levelId: s.levelId,
-    total: s.session.board.tiles.length,
-    clickable: s.session.board.clickable().length,
-    solution: s.level.solution,
-    tiles: s.session.board.tiles.map((t) => ({
-      id: t.instanceId,
-      itemId: t.itemId,
-      x: t.x,
-      y: t.y,
-      w: t.w,
-      h: t.h,
-    })),
-  };
-});
-
-check('进入游戏并加载关卡', info.levelId >= 1 && info.total > 0, `L${info.levelId} ${info.total}件`);
-check('存在被遮挡物品（真实遮挡）', info.clickable < info.total, `可点 ${info.clickable}/${info.total}`);
-await page.screenshot({ path: `${SHOT}/phaser_game.png` });
-
-const tileById = new Map(info.tiles.map((t) => [t.id, t]));
-let clears = 0;
-let picked = 0;
-let previousRemaining = info.total;
-
-for (const id of info.solution) {
-  const t = tileById.get(id);
+// 按解法通关第 2 关
+const l2Tiles = new Map(l2Retry.tiles.map((t) => [t.id, t]));
+let previous = l2Retry.total;
+for (const id of l2Retry.solution) {
+  const t = l2Tiles.get(id);
   if (!t) continue;
-
-  const before = await page.evaluate(() =>
-    window.__SORT_MASTER__.game.scene.getScene('Game').session.slots.all.map((x) => x.itemId),
-  );
-
-  for (let attempt = 0; attempt < 3; attempt++) {
-    await clickGame(t.x + t.w / 2, 150 + t.y + t.h / 2);
-    await sleep(280);
-
-    const after = await page.evaluate(() => {
-      const s = window.__SORT_MASTER__.game.scene.getScene('Game').session;
-      return { remaining: s.board.remaining, types: s.slots.all.map((x) => x.itemId) };
-    });
-
-    if (after.remaining < previousRemaining) {
-      previousRemaining = after.remaining;
-      if (before.length + 1 - after.types.length >= 3) clears++;
-      picked++;
-      if (picked === 5) await page.screenshot({ path: `${SHOT}/phaser_tray.png` });
+  for (let a = 0; a < 3; a++) {
+    await clickTile(t);
+    const st = await readSession();
+    if (st.remaining < previous) {
+      previous = st.remaining;
       break;
     }
   }
 }
-
-const final = await page.evaluate(() => {
-  const s = window.__SORT_MASTER__.game.scene.getScene('Game').session;
-  return { state: s.state, remaining: s.board.remaining, stars: s.stars() };
-});
-
-check('按解法点击可清空棋盘并通关', final.state === 'victory' && final.remaining === 0, JSON.stringify(final));
-check('过程中发生多次消除', clears >= 2, `clears=${clears}`);
-
 await sleep(900);
-await page.screenshot({ path: `${SHOT}/phaser_result.png` });
+const l2Win = await readSession();
+check('第 2 关存在合法通关路径且可通关', l2Win.state === 'victory' && l2Win.remaining === 0, l2Win.state);
 
-const saveRaw = await page.evaluate(() => localStorage.getItem('sort_master_phaser_v1'));
-const saved = saveRaw ? JSON.parse(saveRaw) : null;
-check(
-  '通关后写入存档',
-  !!saved && Array.isArray(saved.completed) && saved.completed.includes(info.levelId),
-  saveRaw ? saveRaw.slice(0, 80) : 'null',
+// ---------------- 4. 收藏图鉴 ----------------
+
+await page.evaluate(() => window.__SORT_MASTER__.game.scene.getScene('Game').scene.start('Menu'));
+await waitMenu();
+await sleep(400);
+await clickGame(375, 878); // 收藏图鉴
+await page.waitForFunction(() => !!window.__SORT_MASTER__?.game?.scene?.isActive('Collection'), {
+  timeout: 10000,
+});
+await sleep(700);
+
+const collectionActive = await page.evaluate(() =>
+  window.__SORT_MASTER__.game.scene.isActive('Collection'),
 );
+check('收藏图鉴可打开', collectionActive);
+await page.screenshot({ path: `${SHOT}/phaser_collection.png` });
 
-// ---------------- 刷新后保留 ----------------
+// ---------------- 5. 刷新持久化 ----------------
+
+const beforeReload = await readSave();
+await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 });
+await waitMenu();
+await sleep(500);
+const afterReload = await readSave();
+
+check(
+  '刷新后金币保留',
+  !!afterReload && afterReload.coins === beforeReload.coins && afterReload.coins > 0,
+  `${beforeReload?.coins} → ${afterReload?.coins}`,
+);
+check(
+  '刷新后收藏进度保留',
+  !!afterReload &&
+    afterReload.collection.length === beforeReload.collection.length &&
+    afterReload.collection.length >= 2,
+  `${afterReload?.collection?.length} 件`,
+);
+check('刷新后关卡进度保留', !!afterReload && afterReload.maxUnlocked >= 3, `maxUnlocked=${afterReload?.maxUnlocked}`);
+
+// ---------------- 6. 系列集齐与领取 ----------------
+
+const seededCoins = await page.evaluate(() => {
+  const raw = JSON.parse(localStorage.getItem('sort_master_phaser_v1') || '{}');
+  raw.collection = Array.from({ length: 12 }, (_, i) => `food_${String(i + 1).padStart(2, '0')}`);
+  localStorage.setItem('sort_master_phaser_v1', JSON.stringify(raw));
+  return raw.coins ?? 0;
+});
 
 await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 });
 await waitMenu();
-await sleep(400);
-const persisted = await page.evaluate(() => {
-  const raw = localStorage.getItem('sort_master_phaser_v1');
-  return raw ? JSON.parse(raw) : null;
+await sleep(500);
+await clickGame(375, 878); // 收藏图鉴
+await page.waitForFunction(() => !!window.__SORT_MASTER__?.game?.scene?.isActive('Collection'), {
+  timeout: 10000,
 });
+await sleep(700);
+await page.screenshot({ path: `${SHOT}/phaser_collection_claim.png` });
+
+await clickGame(375, 790); // 领取系列奖励
+await sleep(900);
+
+const afterClaim = await readSave();
 check(
-  '刷新后进度保留',
-  !!persisted && persisted.completed.includes(info.levelId) && persisted.maxUnlocked >= info.levelId + 1,
-  persisted ? `maxUnlocked=${persisted.maxUnlocked}` : 'null',
+  '系列集齐后可领取奖励（+200 金币，仅一次）',
+  !!afterClaim && afterClaim.seriesClaimed.includes('food') && afterClaim.coins === seededCoins + 200,
+  `coins=${afterClaim?.coins} claimed=${JSON.stringify(afterClaim?.seriesClaimed)}`,
 );
 
 check('全程无控制台错误', errors.length === 0, errors.slice(0, 2).join(' | '));

@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { AUDIO_NAMES, COLORS, FONT, H, ITEM_IDS, UI_NAMES, W } from '../theme';
+import { AUDIO_NAMES, COLLECT_FILES, COLORS, FONT, H, ITEM_IDS, UI_NAMES, W } from '../theme';
 
 /**
  * 启动场景：预加载物品、UI 与音频，并显示进度。
@@ -23,6 +23,9 @@ export class BootScene extends Phaser.Scene {
     }
     for (const name of UI_NAMES) {
       this.load.image(`ui_${name}`, `${base}assets/ui/${name}.png`);
+    }
+    for (const name of COLLECT_FILES) {
+      this.load.image(`collect_${name}`, `${base}assets/collect/${name}.png`);
     }
     for (const name of AUDIO_NAMES) {
       this.load.audio(`audio_${name}`, `${base}assets/audio/${name}.wav`);

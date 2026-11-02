@@ -75,10 +75,17 @@ export class BoardModel {
     return false;
   }
 
-  /** 综合可点击：未移除、无冰冻、未锁定、未被遮挡 */
+  /** 隐藏物品是否已显现（累计消除达到阈值） */
+  isRevealed(tile: Tile): boolean {
+    if (!tile.hidden) return true;
+    return this.matchesResolved >= (tile.revealAfterMatches ?? 0);
+  }
+
+  /** 综合可点击：未移除、无冰冻、未锁定、未被遮挡、已显现 */
   isClickable(tile: Tile): boolean {
     if (tile.removed) return false;
     if (tile.frozen > 0 || tile.locked) return false;
+    if (!this.isRevealed(tile)) return false;
     return !this.isBlocked(tile);
   }
 

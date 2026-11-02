@@ -10,13 +10,23 @@ export interface LevelItem {
   frozen: number;
   locked: boolean;
   unlockAfterMatches: number;
+  /** 隐藏物品：初始不可见，累计消除达到阈值后显现 */
+  hidden?: boolean;
+  revealAfterMatches?: number;
 }
+
+/** 关卡难度档位 */
+export type LevelTier = 'tutorial' | 'normal' | 'hard' | 'challenge';
 
 /** 关卡数据 */
 export interface LevelData {
   levelId: number;
   slotCapacity: number;
   difficulty: number;
+  /** 计算得出的难度评分（1~10） */
+  difficultyScore?: number;
+  /** 难度档位 */
+  tier?: LevelTier;
   difficultyLabel: string;
   itemCount: number;
   layerCount: number;
