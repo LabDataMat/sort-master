@@ -62,8 +62,16 @@ const clickGame = async (gx, gy) => {
   await page.mouse.click(rect.left + (gx / 750) * rect.width, rect.top + (gy / 1334) * rect.height);
 };
 
-const readSession = () =>
-  page.evaluate(() => {
+const readSession = async () => {
+  await page.waitForFunction(
+    () => {
+      const g = window.__SORT_MASTER__?.game;
+      const s = g?.scene?.getScene('Game');
+      return !!(s && s.session && s.session.board);
+    },
+    { timeout: 30000 },
+  );
+  return page.evaluate(() => {
     const s = window.__SORT_MASTER__.game.scene.getScene('Game');
     const b = s.session.board;
     return {
@@ -87,6 +95,7 @@ const readSession = () =>
       tiles: b.tiles.map((t) => ({ id: t.instanceId, x: t.x, y: t.y, w: t.w, h: t.h, layer: t.layer })),
     };
   });
+};
 
 const readSave = () => page.evaluate(() => JSON.parse(localStorage.getItem('sort_master_phaser_v1') || 'null'));
 
